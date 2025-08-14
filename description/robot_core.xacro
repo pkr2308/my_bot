@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
+    <xacro:include filename='inertial_macros.xacro'/>
+
     <material name="white">
         <color rgba="1 1 1 1"/>
     </material> 
@@ -33,14 +35,21 @@
 
     <link name="chassis">
         <visual>
-            <origin xyz="0.0 0 0.05"></origin>
+            <origin xyz="0.05 0 0.05"></origin>
             <geometry>
-                <box size="0.3 0.15 0.15">
-
-                </box>
+                <box size="0.3 0.15 0.15" />
             </geometry>
             <material name="white"/>
         </visual>
+        <collision>
+            <origin xyz="0.05 0 0.05"></origin>
+            <geometry>
+                <box size="0.3 0.15 0.15" />
+            </geometry>
+        </collision>
+        <xacro:inertial_box mass="0.85" x="0.3" y="0.15" z="0.15">
+            <origin xyz="0.05 0 0.075"/>
+        </xacro:inertial_box>
     </link>
 
     <!-- BACK LEFT WHEEL LINK-->
@@ -54,13 +63,19 @@
 
     <link name="back_left_wheel">
         <visual>
-            <origin xyz="0 0 0"></origin>
             <geometry>
                 <cylinder radius="0.05" length="0.03"/>
-
             </geometry>
-            <material name="white"/>
+            <material name="black"/>
         </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.05" length="0.03"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.03" length="0.03" radius="0.05">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
     </link>
 
     <!-- BACK RIGHT WHEEL LINK-->
@@ -74,13 +89,71 @@
 
     <link name="back_right_wheel">
         <visual>
-            <origin xyz="0 0 0"></origin>
             <geometry>
                 <cylinder radius="0.05" length="0.03"/>
-
             </geometry>
-            <material name="white"/>
+            <material name="black"/>
         </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.05" length="0.03"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.03" length="0.03" radius="0.05">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
     </link>
 
+    <!-- FRONT LEFT WHEEL LINK -->
+    <joint name="front_left_wheel_joint" type="revolute">
+        <parent link="chassis"/>
+        <child link="front_left_wheel"/>
+        <origin xyz="0.14 0.0875 0" rpy="-${pi/2} 0 0"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="5" velocity="1" lower="-${pi/4}" upper="${pi/8}"/>
+    </joint>
+
+
+    <link name="front_left_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.03"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.05" length="0.03"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.03" length="0.03" radius="0.05">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+    <!-- FRONT RIGHT WHEEL LINK -->
+    <joint name="front_right_wheel_joint" type="revolute">
+        <parent link="chassis"/>
+        <child link="front_right_wheel"/>
+        <origin xyz="0.14 -0.0875 0" rpy="${pi/2} 0 0"/>
+        <axis xyz="0 -1 0"/>
+        <limit effort="5" velocity="1" lower="-${pi/8}" upper="${pi/4}"/>
+    </joint>
+    
+    <link name="front_right_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.03"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.05" length="0.03"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.03" length="0.03" radius="0.05">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
 </robot>
