@@ -37,17 +37,17 @@
         <visual>
             <origin xyz="0.05 0 0.05"></origin>
             <geometry>
-                <box size="0.3 0.15 0.15" />
+                <box size="0.3 0.15 0.10" />
             </geometry>
             <material name="white"/>
         </visual>
         <collision>
             <origin xyz="0.05 0 0.05"></origin>
             <geometry>
-                <box size="0.3 0.15 0.15" />
+                <box size="0.3 0.15 0.10" />
             </geometry>
         </collision>
-        <xacro:inertial_box mass="0.85" x="0.3" y="0.15" z="0.15">
+        <xacro:inertial_box mass="0.85" x="0.3" y="0.15" z="0.10">
             <origin xyz="0.05 0 0.075"/>
         </xacro:inertial_box>
     </link>

@@ -42,3 +42,17 @@ ros2 run rplidar_ros rplidar_composition --ros-args -p serial_port:=/dev/serial/
 ros2 launch my_bot rplidar.launch.py
 may directly be used.
 8. If it gets stuck, in another terminal sessions: killall rplidar_composition
+
+The Serial Address of the RP2040 by ID is- 
+usb-Raspberry_Pi_Pico_E6617C93E311432C-if00
+
+Getting Dynamixel Hardware setup
+$ source /opt/ros/rolling/setup.bash
+$ mkdir -p ~/ros/rolling && cd ~/ros/rolling/src
+$ git clone https://github.com/youtalk/dynamixel_hardware.git
+$ git clone https://github.com/youtalk/dynamixel_hardware_examples.git
+$ cd -
+$ rosdep install --from-paths src --ignore-src -r -y
+$ colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+$ . install/setup.bash
+

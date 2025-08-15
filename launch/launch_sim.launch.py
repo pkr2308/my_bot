@@ -69,11 +69,11 @@ def generate_launch_description():
                                    '-z', '0.1'],
                         output='screen')
 
-    '''
-    diff_drive_spawner = Node(
+    
+    movement_controller_spawner = Node(
         package="controller_manager",
         executable="spawner",
-        arguments=["diff_cont"],
+        arguments=["movement_controller"],
     )
 
     joint_broad_spawner = Node(
@@ -82,7 +82,7 @@ def generate_launch_description():
         arguments=["joint_broad"],
     )
 
-
+    '''
     bridge_params = os.path.join(get_package_share_directory(package_name),'config','gz_bridge.yaml')
     ros_gz_bridge = Node(
         package="ros_gz_bridge",
@@ -128,8 +128,8 @@ def generate_launch_description():
         #world_arg,
         gazebo,
         spawn_entity,
-        #diff_drive_spawner,
-        #joint_broad_spawner,
+        movement_controller_spawner,
+        joint_broad_spawner,
         #ros_gz_bridge,
         #ros_gz_image_bridge
     ])
