@@ -89,6 +89,7 @@ private:
   bool send_command(const std::string& command);
   std::string receive_response();
   bool parse_sensor_data(const std::string& data);
+  hardware_interface::return_type generate_simulated_data();
   bool sendCommand(const std::string& command);
   std::string receiveResponse();
   bool parseSerialData(const std::string& data);
