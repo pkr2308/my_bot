@@ -1,0 +1,1 @@
+ackermann_steering_controller:camera_ros:controller_manager:geometry_msgs:hardware_interface:imu_sensor_broadcaster:joint_state_broadcaster:joint_state_publisher:pluginlib:range_sensor_broadcaster:rclcpp:rclcpp_lifecycle:robot_state_publisher:rplidar_ros:sensor_msgs:tf2:tf2_geometry_msgs:tf2_ros:urdf:xacro

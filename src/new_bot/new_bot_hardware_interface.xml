@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<library path="new_bot_hardware_interface">
+  <class name="new_bot/RP2040HardwareInterface" 
+         type="new_bot::RP2040HardwareInterface" 
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Hardware interface for new_bot robot with RP2040 microcontroller.
+      Provides control for steering servo, drive motor, IMU sensor, and range sensors.
+    </description>
+  </class>
+</library>

@@ -1,0 +1,47 @@
+[ 50%] Building CXX object CMakeFiles/new_bot_hardware_interface.dir/src/rp2040_hardware_interface.cpp.o
+[100%] Linking CXX shared library libnew_bot_hardware_interface.so
+[100%] Built target new_bot_hardware_interface
+-- Install configuration: ""
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/new_bot_hardware_interface.xml
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/lib/libnew_bot_hardware_interface.so
+-- Set non-toolchain portion of runtime path of "/home/fe25/pranav_bot_ros2_jazzy/install/new_bot/lib/libnew_bot_hardware_interface.so" to ""
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/include
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/include/new_bot
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/include/new_bot/rp2040_hardware_interface.hpp
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/config
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/config/controllers.yaml
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/config/robot_view.rviz
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/robot_core.xacro
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/inertial_macros.xacro
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/robot.urdf.xacro
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/ros2_control.xacro
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/lidar.xacro
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/launch
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/launch/robot_state_publisher.launch.py
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/launch/hardware.launch.py
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/setup.sh
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/test_rp2040.py
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/library_path.sh
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/library_path.dsv
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/ament_index/resource_index/package_run_dependencies/new_bot
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/ament_index/resource_index/parent_prefix_path/new_bot
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/ament_prefix_path.sh
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/ament_prefix_path.dsv
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/path.sh
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/path.dsv
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/local_setup.bash
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/local_setup.sh
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/local_setup.zsh
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/local_setup.dsv
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/package.dsv
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/ament_index/resource_index/packages/new_bot
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/new_bot
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_bot_hardware_interfaceExport.cmake
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_bot_hardware_interfaceExport-noconfig.cmake
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_botConfig.cmake
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_botConfig-version.cmake
+-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/package.xml

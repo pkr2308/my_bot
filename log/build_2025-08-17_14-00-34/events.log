@@ -1,0 +1,291 @@
+[0.000000] (-) TimerEvent: {}
+[0.000246] (new_bot) JobQueued: {'identifier': 'new_bot', 'dependencies': OrderedDict()}
+[0.000810] (new_bot) JobStarted: {'identifier': 'new_bot'}
+[0.010795] (new_bot) JobProgress: {'identifier': 'new_bot', 'progress': 'cmake'}
+[0.011491] (new_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/fe25/pranav_bot_ros2_jazzy/src/new_bot', '-DCMAKE_INSTALL_PREFIX=/home/fe25/pranav_bot_ros2_jazzy/install/new_bot'], 'cwd': '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fe25', 'SSH_CLIENT': '192.168.1.38 54028 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/helpers/browser.sh', 'HOME': '/home/fe25', 'OLDPWD': '/home/fe25/pranav_bot_ros2_jazzy', 'TERM_PROGRAM_VERSION': '1.101.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-2128b243-b269-491e-8b01-39d8192d7396.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fe25', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fe25/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-e01dc385ae.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.38 54028 192.168.1.53 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099920] (-) TimerEvent: {}
+[0.119765] (new_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.200075] (-) TimerEvent: {}
+[0.223483] (new_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.254192] (new_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300188] (-) TimerEvent: {}
+[0.400566] (-) TimerEvent: {}
+[0.465968] (new_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.481705] (new_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.482015] (new_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.482575] (new_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.496953] (new_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500645] (-) TimerEvent: {}
+[0.600981] (-) TimerEvent: {}
+[0.694126] (new_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.701048] (-) TimerEvent: {}
+[0.709011] (new_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.709405] (new_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.710120] (new_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.716249] (new_bot) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.801161] (-) TimerEvent: {}
+[0.901473] (-) TimerEvent: {}
+[0.955107] (new_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.001578] (-) TimerEvent: {}
+[1.101919] (-) TimerEvent: {}
+[1.150852] (new_bot) StdoutLine: {'line': b'-- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)\n'}
+[1.202028] (-) TimerEvent: {}
+[1.245468] (new_bot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.272362] (new_bot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.302131] (-) TimerEvent: {}
+[1.302374] (new_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.335767] (new_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.402243] (-) TimerEvent: {}
+[1.463720] (new_bot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.469962] (new_bot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.502345] (-) TimerEvent: {}
+[1.602713] (-) TimerEvent: {}
+[1.635340] (new_bot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.665082] (new_bot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.700950] (new_bot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.702750] (-) TimerEvent: {}
+[1.803005] (-) TimerEvent: {}
+[1.903333] (-) TimerEvent: {}
+[2.003651] (-) TimerEvent: {}
+[2.103985] (-) TimerEvent: {}
+[2.204327] (-) TimerEvent: {}
+[2.304723] (-) TimerEvent: {}
+[2.405076] (-) TimerEvent: {}
+[2.505403] (-) TimerEvent: {}
+[2.574319] (new_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.605518] (-) TimerEvent: {}
+[2.705875] (-) TimerEvent: {}
+[2.779769] (new_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.782497] (new_bot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.782822] (new_bot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include>\n'}
+[2.782925] (new_bot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.785228] (new_bot) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.785357] (new_bot) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.786411] (new_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.786535] (new_bot) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.787708] (new_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.788811] (new_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.791083] (new_bot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.791213] (new_bot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.792225] (new_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.796187] (new_bot) StdoutLine: {'line': b'-- Configuring done (2.8s)\n'}
+[2.805989] (-) TimerEvent: {}
+[2.838394] (new_bot) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.846861] (new_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/fe25/pranav_bot_ros2_jazzy/build/new_bot\n'}
+[2.872625] (new_bot) CommandEnded: {'returncode': 0}
+[2.873511] (new_bot) JobProgress: {'identifier': 'new_bot', 'progress': 'build'}
+[2.874311] (new_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot', '--', '-j4', '-l4'], 'cwd': '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fe25', 'SSH_CLIENT': '192.168.1.38 54028 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/helpers/browser.sh', 'HOME': '/home/fe25', 'OLDPWD': '/home/fe25/pranav_bot_ros2_jazzy', 'TERM_PROGRAM_VERSION': '1.101.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-2128b243-b269-491e-8b01-39d8192d7396.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fe25', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fe25/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-e01dc385ae.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.38 54028 192.168.1.53 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.906113] (-) TimerEvent: {}
+[2.984528] (new_bot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/new_bot_hardware_interface.dir/src/rp2040_hardware_interface.cpp.o\x1b[0m\n'}
+[3.006251] (-) TimerEvent: {}
+[3.106601] (-) TimerEvent: {}
+[3.206968] (-) TimerEvent: {}
+[3.307303] (-) TimerEvent: {}
+[3.407634] (-) TimerEvent: {}
+[3.507991] (-) TimerEvent: {}
+[3.608330] (-) TimerEvent: {}
+[3.708704] (-) TimerEvent: {}
+[3.809041] (-) TimerEvent: {}
+[3.909383] (-) TimerEvent: {}
+[4.009747] (-) TimerEvent: {}
+[4.110101] (-) TimerEvent: {}
+[4.210446] (-) TimerEvent: {}
+[4.310760] (-) TimerEvent: {}
+[4.411112] (-) TimerEvent: {}
+[4.511450] (-) TimerEvent: {}
+[4.611804] (-) TimerEvent: {}
+[4.712139] (-) TimerEvent: {}
+[4.812479] (-) TimerEvent: {}
+[4.912840] (-) TimerEvent: {}
+[5.013189] (-) TimerEvent: {}
+[5.113522] (-) TimerEvent: {}
+[5.213882] (-) TimerEvent: {}
+[5.314229] (-) TimerEvent: {}
+[5.414576] (-) TimerEvent: {}
+[5.514933] (-) TimerEvent: {}
+[5.615277] (-) TimerEvent: {}
+[5.715619] (-) TimerEvent: {}
+[5.815950] (-) TimerEvent: {}
+[5.916279] (-) TimerEvent: {}
+[6.016619] (-) TimerEvent: {}
+[6.116962] (-) TimerEvent: {}
+[6.217281] (-) TimerEvent: {}
+[6.317608] (-) TimerEvent: {}
+[6.417953] (-) TimerEvent: {}
+[6.518299] (-) TimerEvent: {}
+[6.618644] (-) TimerEvent: {}
+[6.719057] (-) TimerEvent: {}
+[6.819398] (-) TimerEvent: {}
+[6.902062] (new_bot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:1\x1b[m\x1b[K:\n'}
+[6.902384] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:27:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.902496] (new_bot) StderrLine: {'line': b'   27 |   RCLCPP_SHARED_PTR_DEFINITIONS(RP2040HardwareInterface)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[6.902580] (new_bot) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.902658] (new_bot) StderrLine: {'line': b'      |                                                         \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[6.919488] (-) TimerEvent: {}
+[6.928459] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Kon_init\x1b[m\x1b[K(const hardware_interface::HardwareInfo&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.928705] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:32:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_joint_positions_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Khw_positions_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.928839] (new_bot) StderrLine: {'line': b'   32 |   \x1b[01;31m\x1b[Khw_joint_positions_\x1b[m\x1b[K.resize(info_.joints.size(), 0.0);\n'}
+[6.928942] (new_bot) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.929018] (new_bot) StderrLine: {'line': b'      |   \x1b[32m\x1b[Khw_positions_\x1b[m\x1b[K\n'}
+[6.944219] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:33:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_joint_velocities_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Khw_velocities_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.944512] (new_bot) StderrLine: {'line': b'   33 |   \x1b[01;31m\x1b[Khw_joint_velocities_\x1b[m\x1b[K.resize(info_.joints.size(), 0.0);\n'}
+[6.944614] (new_bot) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.944708] (new_bot) StderrLine: {'line': b'      |   \x1b[32m\x1b[Khw_velocities_\x1b[m\x1b[K\n'}
+[6.968539] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:34:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_joint_position_commands_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.968704] (new_bot) StderrLine: {'line': b'   34 |   \x1b[01;31m\x1b[Khw_joint_position_commands_\x1b[m\x1b[K.resize(info_.joints.size(), 0.0);\n'}
+[6.968795] (new_bot) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.993193] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:35:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_joint_velocity_commands_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.993421] (new_bot) StderrLine: {'line': b'   35 |   \x1b[01;31m\x1b[Khw_joint_velocity_commands_\x1b[m\x1b[K.resize(info_.joints.size(), 0.0);\n'}
+[6.993512] (new_bot) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.004508] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:38:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_names_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kjoint_states_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.004688] (new_bot) StderrLine: {'line': b'   38 |   \x1b[01;31m\x1b[Kjoint_names_\x1b[m\x1b[K.clear();\n'}
+[7.004779] (new_bot) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.004876] (new_bot) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kjoint_states_\x1b[m\x1b[K\n'}
+[7.019573] (-) TimerEvent: {}
+[7.023422] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:45:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_imu_orientation_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.023643] (new_bot) StderrLine: {'line': b'   45 |   \x1b[01;31m\x1b[Khw_imu_orientation_\x1b[m\x1b[K.resize(4, 0.0);      // quaternion x,y,z,w\n'}
+[7.023750] (new_bot) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.046180] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:46:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_imu_angular_velocity_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.046427] (new_bot) StderrLine: {'line': b'   46 |   \x1b[01;31m\x1b[Khw_imu_angular_velocity_\x1b[m\x1b[K.resize(3, 0.0); // rad/s x,y,z\n'}
+[7.046532] (new_bot) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.065051] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:47:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_imu_linear_accel_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.065250] (new_bot) StderrLine: {'line': b'   47 |   \x1b[01;31m\x1b[Khw_imu_linear_accel_\x1b[m\x1b[K.resize(3, 0.0);     // m/s\xc2\xb2 x,y,z\n'}
+[7.065339] (new_bot) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.081499] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:48:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_range_sensors_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.081698] (new_bot) StderrLine: {'line': b'   48 |   \x1b[01;31m\x1b[Khw_range_sensors_\x1b[m\x1b[K.resize(3, 0.0);        // front, left, right distances\n'}
+[7.081793] (new_bot) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.099631] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Kon_configure\x1b[m\x1b[K(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.099879] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:62:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconnect_to_rp2040\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.099966] (new_bot) StderrLine: {'line': b'   62 |   if (!\x1b[01;31m\x1b[Kconnect_to_rp2040\x1b[m\x1b[K())\n'}
+[7.100041] (new_bot) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.116442] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::vector<hardware_interface::StateInterface> new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Kexport_state_interfaces\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.116657] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:82:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_joint_positions_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Khw_positions_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.116769] (new_bot) StderrLine: {'line': b'   82 |       info_.joints[i].name, hardware_interface::HW_IF_POSITION, &\x1b[01;31m\x1b[Khw_joint_positions_\x1b[m\x1b[K[i]));\n'}
+[7.116874] (new_bot) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.116949] (new_bot) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[Khw_positions_\x1b[m\x1b[K\n'}
+[7.119659] (-) TimerEvent: {}
+[7.132270] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:84:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_joint_velocities_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Khw_velocities_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.132522] (new_bot) StderrLine: {'line': b'   84 |       info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &\x1b[01;31m\x1b[Khw_joint_velocities_\x1b[m\x1b[K[i]));\n'}
+[7.132613] (new_bot) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.132711] (new_bot) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[Khw_velocities_\x1b[m\x1b[K\n'}
+[7.150218] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:89:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_imu_orientation_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.150469] (new_bot) StderrLine: {'line': b'   89 |     "imu_sensor", "orientation.x", &\x1b[01;31m\x1b[Khw_imu_orientation_\x1b[m\x1b[K[0]));\n'}
+[7.150558] (new_bot) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.172624] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:98:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_imu_angular_velocity_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.172812] (new_bot) StderrLine: {'line': b'   98 |     "imu_sensor", "angular_velocity.x", &\x1b[01;31m\x1b[Khw_imu_angular_velocity_\x1b[m\x1b[K[0]));\n'}
+[7.172900] (new_bot) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.191753] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:105:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_imu_linear_accel_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.192000] (new_bot) StderrLine: {'line': b'  105 |     "imu_sensor", "linear_acceleration.x", &\x1b[01;31m\x1b[Khw_imu_linear_accel_\x1b[m\x1b[K[0]));\n'}
+[7.192092] (new_bot) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.208308] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:113:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_range_sensors_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.208482] (new_bot) StderrLine: {'line': b'  113 |     "tf_luna_front", "range", &\x1b[01;31m\x1b[Khw_range_sensors_\x1b[m\x1b[K[0]));\n'}
+[7.208560] (new_bot) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.219745] (-) TimerEvent: {}
+[7.234797] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::vector<hardware_interface::CommandInterface> new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Kexport_command_interfaces\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.235053] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:135:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_joint_position_commands_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.235152] (new_bot) StderrLine: {'line': b'  135 |           info_.joints[i].name, hardware_interface::HW_IF_POSITION, &\x1b[01;31m\x1b[Khw_joint_position_commands_\x1b[m\x1b[K[i]));\n'}
+[7.235242] (new_bot) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.260315] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:140:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_joint_velocity_commands_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.260562] (new_bot) StderrLine: {'line': b'  140 |           info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &\x1b[01;31m\x1b[Khw_joint_velocity_commands_\x1b[m\x1b[K[i]));\n'}
+[7.260652] (new_bot) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.271797] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Kon_activate\x1b[m\x1b[K(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.271955] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:154:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksend_command\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KsendCommand\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.272038] (new_bot) StderrLine: {'line': b'  154 |   if (!\x1b[01;31m\x1b[Ksend_command\x1b[m\x1b[K("INIT"))\n'}
+[7.272115] (new_bot) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.272188] (new_bot) StderrLine: {'line': b'      |        \x1b[32m\x1b[KsendCommand\x1b[m\x1b[K\n'}
+[7.283901] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Kon_deactivate\x1b[m\x1b[K(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.284080] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:170:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksend_command\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KsendCommand\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.284167] (new_bot) StderrLine: {'line': b'  170 |   \x1b[01;31m\x1b[Ksend_command\x1b[m\x1b[K("STOP");\n'}
+[7.284243] (new_bot) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.284316] (new_bot) StderrLine: {'line': b'      |   \x1b[32m\x1b[KsendCommand\x1b[m\x1b[K\n'}
+[7.305108] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:172:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdisconnect_from_rp2040\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.305324] (new_bot) StderrLine: {'line': b'  172 |   \x1b[01;31m\x1b[Kdisconnect_from_rp2040\x1b[m\x1b[K();\n'}
+[7.305407] (new_bot) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.316238] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Kread\x1b[m\x1b[K(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.316414] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:182:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksend_command\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KsendCommand\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.316496] (new_bot) StderrLine: {'line': b'  182 |   if (!\x1b[01;31m\x1b[Ksend_command\x1b[m\x1b[K("READ"))\n'}
+[7.316570] (new_bot) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.316642] (new_bot) StderrLine: {'line': b'      |        \x1b[32m\x1b[KsendCommand\x1b[m\x1b[K\n'}
+[7.319826] (-) TimerEvent: {}
+[7.327257] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:189:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kreceive_response\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KreceiveResponse\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.327505] (new_bot) StderrLine: {'line': b'  189 |   std::string response = \x1b[01;31m\x1b[Kreceive_response\x1b[m\x1b[K();\n'}
+[7.327592] (new_bot) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.327668] (new_bot) StderrLine: {'line': b'      |                          \x1b[32m\x1b[KreceiveResponse\x1b[m\x1b[K\n'}
+[7.343778] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:190:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparse_sensor_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.344051] (new_bot) StderrLine: {'line': b'  190 |   if (!\x1b[01;31m\x1b[Kparse_sensor_data\x1b[m\x1b[K(response))\n'}
+[7.344154] (new_bot) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.369370] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Kwrite\x1b[m\x1b[K(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.369545] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:227:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_joint_position_commands_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.369630] (new_bot) StderrLine: {'line': b'  227 |       command += "P:" + std::to_string(\x1b[01;31m\x1b[Khw_joint_position_commands_\x1b[m\x1b[K[i]);\n'}
+[7.369756] (new_bot) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.392797] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:231:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_joint_velocity_commands_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.393009] (new_bot) StderrLine: {'line': b'  231 |       command += "V:" + std::to_string(\x1b[01;31m\x1b[Khw_joint_velocity_commands_\x1b[m\x1b[K[i]);\n'}
+[7.393097] (new_bot) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.402923] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:236:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksend_command\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KsendCommand\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.403102] (new_bot) StderrLine: {'line': b'  236 |   if (!\x1b[01;31m\x1b[Ksend_command\x1b[m\x1b[K(command))\n'}
+[7.403180] (new_bot) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.403254] (new_bot) StderrLine: {'line': b'      |        \x1b[32m\x1b[KsendCommand\x1b[m\x1b[K\n'}
+[7.403965] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:\x1b[m\x1b[K At global scope:\n'}
+[7.404119] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:245:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kbool new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Kconnect_to_rp2040\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.404209] (new_bot) StderrLine: {'line': b'  245 | bool \x1b[01;31m\x1b[KRP2040HardwareInterface\x1b[m\x1b[K::connect_to_rp2040()\n'}
+[7.404294] (new_bot) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.404489] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:245:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kbool new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Kconnect_to_rp2040\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.404573] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass new_bot::RP2040HardwareInterface\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[7.404653] (new_bot) StderrLine: {'line': b'   24 | class \x1b[01;36m\x1b[KRP2040HardwareInterface\x1b[m\x1b[K : public hardware_interface::SystemInterface\n'}
+[7.404748] (new_bot) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.404825] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:273:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Kdisconnect_from_rp2040\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.404902] (new_bot) StderrLine: {'line': b'  273 | void \x1b[01;31m\x1b[KRP2040HardwareInterface\x1b[m\x1b[K::disconnect_from_rp2040()\n'}
+[7.404974] (new_bot) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.405046] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:273:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Kdisconnect_from_rp2040\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.405120] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass new_bot::RP2040HardwareInterface\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[7.405193] (new_bot) StderrLine: {'line': b'   24 | class \x1b[01;36m\x1b[KRP2040HardwareInterface\x1b[m\x1b[K : public hardware_interface::SystemInterface\n'}
+[7.405265] (new_bot) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.405335] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:281:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kbool new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Ksend_command\x1b[m\x1b[K(const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.405425] (new_bot) StderrLine: {'line': b'  281 | bool \x1b[01;31m\x1b[KRP2040HardwareInterface\x1b[m\x1b[K::send_command(const std::string& command)\n'}
+[7.405499] (new_bot) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.405570] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:281:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kbool new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Ksend_command\x1b[m\x1b[K(const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.405642] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass new_bot::RP2040HardwareInterface\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[7.405733] (new_bot) StderrLine: {'line': b'   24 | class \x1b[01;36m\x1b[KRP2040HardwareInterface\x1b[m\x1b[K : public hardware_interface::SystemInterface\n'}
+[7.405809] (new_bot) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.405881] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:303:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kstd::string new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Kreceive_response\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.405963] (new_bot) StderrLine: {'line': b'  303 | std::string \x1b[01;31m\x1b[KRP2040HardwareInterface\x1b[m\x1b[K::receive_response()\n'}
+[7.406034] (new_bot) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.406106] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:303:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kstd::string new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Kreceive_response\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.406178] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass new_bot::RP2040HardwareInterface\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[7.406250] (new_bot) StderrLine: {'line': b'   24 | class \x1b[01;36m\x1b[KRP2040HardwareInterface\x1b[m\x1b[K : public hardware_interface::SystemInterface\n'}
+[7.406321] (new_bot) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.406391] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:326:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kbool new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Kparse_sensor_data\x1b[m\x1b[K(const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.406464] (new_bot) StderrLine: {'line': b'  326 | bool \x1b[01;31m\x1b[KRP2040HardwareInterface\x1b[m\x1b[K::parse_sensor_data(const std::string& data)\n'}
+[7.406534] (new_bot) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.406604] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:326:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kbool new_bot::RP2040HardwareInterface::\x1b[01;32m\x1b[Kparse_sensor_data\x1b[m\x1b[K(const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.406695] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass new_bot::RP2040HardwareInterface\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[7.406785] (new_bot) StderrLine: {'line': b'   24 | class \x1b[01;36m\x1b[KRP2040HardwareInterface\x1b[m\x1b[K : public hardware_interface::SystemInterface\n'}
+[7.406857] (new_bot) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.419909] (-) TimerEvent: {}
+[7.520203] (-) TimerEvent: {}
+[7.620554] (-) TimerEvent: {}
+[7.720905] (-) TimerEvent: {}
+[7.821238] (-) TimerEvent: {}
+[7.921582] (-) TimerEvent: {}
+[8.021936] (-) TimerEvent: {}
+[8.122280] (-) TimerEvent: {}
+[8.222625] (-) TimerEvent: {}
+[8.322980] (-) TimerEvent: {}
+[8.423322] (-) TimerEvent: {}
+[8.523646] (-) TimerEvent: {}
+[8.623987] (-) TimerEvent: {}
+[8.724327] (-) TimerEvent: {}
+[8.824686] (-) TimerEvent: {}
+[8.925039] (-) TimerEvent: {}
+[9.025389] (-) TimerEvent: {}
+[9.125754] (-) TimerEvent: {}
+[9.226095] (-) TimerEvent: {}
+[9.326461] (-) TimerEvent: {}
+[9.426834] (-) TimerEvent: {}
+[9.527220] (-) TimerEvent: {}
+[9.562852] (new_bot) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/new_bot_hardware_interface.dir/build.make:76: CMakeFiles/new_bot_hardware_interface.dir/src/rp2040_hardware_interface.cpp.o] Error 1\n'}
+[9.563174] (new_bot) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/new_bot_hardware_interface.dir/all] Error 2\n'}
+[9.563500] (new_bot) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.566993] (new_bot) CommandEnded: {'returncode': 2}
+[9.576805] (new_bot) JobEnded: {'identifier': 'new_bot', 'rc': 2}
+[9.587697] (-) EventReactorShutdown: {}

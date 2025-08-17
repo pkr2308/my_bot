@@ -1,0 +1,3 @@
+/home/fe25/pranav_bot_ros2_jazzy/install/new_bot/lib/libnew_bot_hardware_interface.so
+/home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_bot_hardware_interfaceExport.cmake
+/home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_bot_hardware_interfaceExport-noconfig.cmake

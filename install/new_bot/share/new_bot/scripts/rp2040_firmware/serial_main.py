@@ -1,0 +1,1 @@
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/scripts/rp2040_firmware/serial_main.py

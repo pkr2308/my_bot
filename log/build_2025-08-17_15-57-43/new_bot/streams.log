@@ -1,0 +1,95 @@
+[0.015s] Invoking command in '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fe25/pranav_bot_ros2_jazzy/build/new_bot -- -j4 -l4
+[0.067s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.401s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.411s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[0.453s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.466s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.485s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.505s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.593s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.595s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.692s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.217s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.383s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.386s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.387s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include>
+[1.387s] -- Configured cppcheck exclude dirs and/or files: 
+[1.389s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.390s] -- Configured cpplint exclude dirs and/or files: 
+[1.390s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.390s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.391s] -- Added test 'lint_cmake' to check CMake code style
+[1.392s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.394s] -- Added test 'uncrustify' to check C / C++ code style
+[1.394s] -- Configured uncrustify additional arguments: 
+[1.395s] -- Added test 'xmllint' to check XML markup files
+[1.399s] -- Configuring done (1.3s)
+[1.445s] -- Generating done (0.0s)
+[1.464s] -- Build files have been written to: /home/fe25/pranav_bot_ros2_jazzy/build/new_bot
+[1.557s] [ 50%] [32mBuilding CXX object CMakeFiles/new_bot_hardware_interface.dir/src/rp2040_hardware_interface.cpp.o[0m
+[5.494s] In file included from [01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:1[m[K:
+[5.494s] [01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:27:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.494s]    27 |   RCLCPP_SHARED_PTR_DEFINITIONS(RP2040HardwareInterface)[01;35m[K;[m[K
+[5.494s]       |                                                         [01;35m[K^[m[K
+[5.495s]       |                                                         [31m[K-[m[K
+[9.598s] [100%] [32m[1mLinking CXX shared library libnew_bot_hardware_interface.so[0m
+[10.213s] [100%] Built target new_bot_hardware_interface
+[10.236s] Invoked command in '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fe25/pranav_bot_ros2_jazzy/build/new_bot -- -j4 -l4
+[10.257s] Invoking command in '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fe25/pranav_bot_ros2_jazzy/build/new_bot
+[10.274s] -- Install configuration: ""
+[10.275s] -- Execute custom install script
+[10.275s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot//new_bot_hardware_interface.xml
+[10.275s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/include/new_bot/rp2040_hardware_interface.hpp
+[10.276s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/config/controllers.yaml
+[10.276s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/config/robot_view.rviz
+[10.276s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/inertial_macros.xacro
+[10.276s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/lidar.xacro
+[10.277s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/robot.urdf.xacro
+[10.277s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/robot_core.xacro
+[10.277s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/ros2_control.xacro
+[10.277s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/launch/hardware.launch.py
+[10.277s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/launch/robot_state_publisher.launch.py
+[10.278s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/README_RP2040.md
+[10.278s] -- Symlinking: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/debug_ping_test.py
+[10.297s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/diagnose_rp2040.sh
+[10.297s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/improved_test_rp2040.py
+[10.297s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/rp2040_firmware.cpp
+[10.298s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/rp2040_firmware/README.md
+[10.298s] -- Symlinking: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/rp2040_firmware/README_CLEAN.md
+[10.317s] -- Symlinking: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/rp2040_firmware/debug_main.py
+[10.336s] -- Symlinking: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/rp2040_firmware/fixed_main.py
+[10.355s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/rp2040_firmware/main.py
+[10.355s] -- Symlinking: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/rp2040_firmware/serial_main.py
+[10.374s] -- Symlinking: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/rp2040_firmware/simple_main.py
+[10.392s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/rp2040_firmware/simple_test.py
+[10.392s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/rp2040_simulator.py
+[10.392s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/setup.sh
+[10.392s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/setup_rp2040.sh
+[10.392s] -- Symlinking: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/simple_rp2040_test.py
+[10.412s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/test_rp2040.py
+[10.412s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/test_simulator.py
+[10.412s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/library_path.sh
+[10.413s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/library_path.dsv
+[10.413s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/ament_index/resource_index/package_run_dependencies/new_bot
+[10.413s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/ament_index/resource_index/parent_prefix_path/new_bot
+[10.413s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/ament_prefix_path.sh
+[10.413s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/ament_prefix_path.dsv
+[10.414s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/path.sh
+[10.414s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/path.dsv
+[10.414s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/local_setup.bash
+[10.414s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/local_setup.sh
+[10.414s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/local_setup.zsh
+[10.415s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/local_setup.dsv
+[10.415s] -- Symlinking: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/package.dsv
+[10.434s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/ament_index/resource_index/packages/new_bot
+[10.435s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/new_bot
+[10.435s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/ament_cmake_export_targets-extras.cmake
+[10.435s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.435s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_botConfig.cmake
+[10.435s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_botConfig-version.cmake
+[10.435s] -- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/package.xml
+[10.436s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/lib/libnew_bot_hardware_interface.so
+[10.440s] -- Set non-toolchain portion of runtime path of "/home/fe25/pranav_bot_ros2_jazzy/install/new_bot/lib/libnew_bot_hardware_interface.so" to ""
+[10.440s] -- Up-to-date: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_bot_hardware_interfaceExport.cmake
+[10.440s] -- Up-to-date: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_bot_hardware_interfaceExport-noconfig.cmake
+[10.444s] Invoked command in '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fe25/pranav_bot_ros2_jazzy/build/new_bot

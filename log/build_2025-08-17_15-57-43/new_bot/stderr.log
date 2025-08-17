@@ -1,0 +1,5 @@
+In file included from [01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:1[m[K:
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:27:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   27 |   RCLCPP_SHARED_PTR_DEFINITIONS(RP2040HardwareInterface)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K

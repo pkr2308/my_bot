@@ -1,0 +1,204 @@
+[0.000000] (-) TimerEvent: {}
+[0.000294] (new_bot) JobQueued: {'identifier': 'new_bot', 'dependencies': OrderedDict()}
+[0.000735] (new_bot) JobStarted: {'identifier': 'new_bot'}
+[0.011633] (new_bot) JobProgress: {'identifier': 'new_bot', 'progress': 'cmake'}
+[0.012558] (new_bot) JobProgress: {'identifier': 'new_bot', 'progress': 'build'}
+[0.013453] (new_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot', '--clean-first', '--', '-j4', '-l4'], 'cwd': '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fe25', 'SSH_CLIENT': '192.168.1.38 53914 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/fe25/pranav_bot_ros2_jazzy/install/new_bot/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/helpers/browser.sh', 'HOME': '/home/fe25', 'OLDPWD': '/home/fe25/pranav_bot_ros2_jazzy', 'TERM_PROGRAM_VERSION': '1.101.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-f44a607e-c118-48c8-8c66-b8c6a9d67767.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/fe25/pranav_bot_ros2_jazzy/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fe25', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fe25/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/fe25/.local/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-e01dc385ae.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/fe25/pranav_bot_ros2_jazzy/install/new_bot:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.38 53914 192.168.1.53 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/fe25/pranav_bot_ros2_jazzy/install/new_bot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099769] (-) TimerEvent: {}
+[0.141228] (new_bot) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199857] (-) TimerEvent: {}
+[0.300301] (-) TimerEvent: {}
+[0.400647] (-) TimerEvent: {}
+[0.492529] (new_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.500739] (-) TimerEvent: {}
+[0.503450] (new_bot) StdoutLine: {'line': b'-- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)\n'}
+[0.543918] (new_bot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.558280] (new_bot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.574243] (new_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.593885] (new_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600816] (-) TimerEvent: {}
+[0.676396] (new_bot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.678188] (new_bot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700928] (-) TimerEvent: {}
+[0.776431] (new_bot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.801052] (-) TimerEvent: {}
+[0.901415] (-) TimerEvent: {}
+[1.001752] (-) TimerEvent: {}
+[1.102096] (-) TimerEvent: {}
+[1.202439] (-) TimerEvent: {}
+[1.278195] (new_bot) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") \n'}
+[1.279669] (new_bot) StdoutLine: {'line': b"-- Checking for module 'libserial'\n"}
+[1.302557] (-) TimerEvent: {}
+[1.316947] (new_bot) StdoutLine: {'line': b'--   Found libserial, version 1.0.0\n'}
+[1.387052] (new_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.402649] (-) TimerEvent: {}
+[1.503005] (-) TimerEvent: {}
+[1.550515] (new_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.553356] (new_bot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.553685] (new_bot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include>\n'}
+[1.553805] (new_bot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.555925] (new_bot) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.556100] (new_bot) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.556599] (new_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.556723] (new_bot) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.557454] (new_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.558053] (new_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.560228] (new_bot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.560370] (new_bot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.560881] (new_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.563660] (new_bot) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.603120] (-) TimerEvent: {}
+[1.613241] (new_bot) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.631453] (new_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/fe25/pranav_bot_ros2_jazzy/build/new_bot\n'}
+[1.703258] (-) TimerEvent: {}
+[1.712595] (new_bot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/new_bot_hardware_interface.dir/src/rp2040_hardware_interface.cpp.o\x1b[0m\n'}
+[1.803376] (-) TimerEvent: {}
+[1.903743] (-) TimerEvent: {}
+[2.004116] (-) TimerEvent: {}
+[2.104563] (-) TimerEvent: {}
+[2.205158] (-) TimerEvent: {}
+[2.305514] (-) TimerEvent: {}
+[2.405893] (-) TimerEvent: {}
+[2.506283] (-) TimerEvent: {}
+[2.606672] (-) TimerEvent: {}
+[2.707077] (-) TimerEvent: {}
+[2.807446] (-) TimerEvent: {}
+[2.907828] (-) TimerEvent: {}
+[3.008211] (-) TimerEvent: {}
+[3.108574] (-) TimerEvent: {}
+[3.208925] (-) TimerEvent: {}
+[3.309287] (-) TimerEvent: {}
+[3.409650] (-) TimerEvent: {}
+[3.510027] (-) TimerEvent: {}
+[3.610414] (-) TimerEvent: {}
+[3.710779] (-) TimerEvent: {}
+[3.811131] (-) TimerEvent: {}
+[3.911500] (-) TimerEvent: {}
+[4.011856] (-) TimerEvent: {}
+[4.112232] (-) TimerEvent: {}
+[4.212588] (-) TimerEvent: {}
+[4.312939] (-) TimerEvent: {}
+[4.413307] (-) TimerEvent: {}
+[4.513639] (-) TimerEvent: {}
+[4.614016] (-) TimerEvent: {}
+[4.714373] (-) TimerEvent: {}
+[4.814730] (-) TimerEvent: {}
+[4.915088] (-) TimerEvent: {}
+[5.015472] (-) TimerEvent: {}
+[5.115910] (-) TimerEvent: {}
+[5.216283] (-) TimerEvent: {}
+[5.316632] (-) TimerEvent: {}
+[5.416993] (-) TimerEvent: {}
+[5.517379] (-) TimerEvent: {}
+[5.617729] (-) TimerEvent: {}
+[5.654787] (new_bot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:1\x1b[m\x1b[K:\n'}
+[5.655140] (new_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:27:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.655284] (new_bot) StderrLine: {'line': b'   27 |   RCLCPP_SHARED_PTR_DEFINITIONS(RP2040HardwareInterface)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[5.655382] (new_bot) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.655473] (new_bot) StderrLine: {'line': b'      |                                                         \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[5.717839] (-) TimerEvent: {}
+[5.818208] (-) TimerEvent: {}
+[5.918567] (-) TimerEvent: {}
+[6.018941] (-) TimerEvent: {}
+[6.119323] (-) TimerEvent: {}
+[6.219689] (-) TimerEvent: {}
+[6.320053] (-) TimerEvent: {}
+[6.420422] (-) TimerEvent: {}
+[6.520791] (-) TimerEvent: {}
+[6.621151] (-) TimerEvent: {}
+[6.721514] (-) TimerEvent: {}
+[6.821866] (-) TimerEvent: {}
+[6.922228] (-) TimerEvent: {}
+[7.022586] (-) TimerEvent: {}
+[7.122948] (-) TimerEvent: {}
+[7.223326] (-) TimerEvent: {}
+[7.323708] (-) TimerEvent: {}
+[7.424087] (-) TimerEvent: {}
+[7.524447] (-) TimerEvent: {}
+[7.624833] (-) TimerEvent: {}
+[7.725201] (-) TimerEvent: {}
+[7.825554] (-) TimerEvent: {}
+[7.925930] (-) TimerEvent: {}
+[8.026314] (-) TimerEvent: {}
+[8.126676] (-) TimerEvent: {}
+[8.227035] (-) TimerEvent: {}
+[8.327404] (-) TimerEvent: {}
+[8.427768] (-) TimerEvent: {}
+[8.528132] (-) TimerEvent: {}
+[8.628487] (-) TimerEvent: {}
+[8.728837] (-) TimerEvent: {}
+[8.829210] (-) TimerEvent: {}
+[8.929559] (-) TimerEvent: {}
+[9.029914] (-) TimerEvent: {}
+[9.130307] (-) TimerEvent: {}
+[9.230669] (-) TimerEvent: {}
+[9.331022] (-) TimerEvent: {}
+[9.431448] (-) TimerEvent: {}
+[9.531940] (-) TimerEvent: {}
+[9.632400] (-) TimerEvent: {}
+[9.732834] (-) TimerEvent: {}
+[9.748144] (new_bot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libnew_bot_hardware_interface.so\x1b[0m\n'}
+[9.833015] (-) TimerEvent: {}
+[9.933707] (-) TimerEvent: {}
+[10.034538] (-) TimerEvent: {}
+[10.135148] (-) TimerEvent: {}
+[10.235539] (-) TimerEvent: {}
+[10.295638] (new_bot) StdoutLine: {'line': b'[100%] Built target new_bot_hardware_interface\n'}
+[10.319757] (new_bot) CommandEnded: {'returncode': 0}
+[10.320552] (new_bot) JobProgress: {'identifier': 'new_bot', 'progress': 'install'}
+[10.335622] (-) TimerEvent: {}
+[10.340734] (new_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot'], 'cwd': '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fe25', 'SSH_CLIENT': '192.168.1.38 53914 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/fe25/pranav_bot_ros2_jazzy/install/new_bot/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/helpers/browser.sh', 'HOME': '/home/fe25', 'OLDPWD': '/home/fe25/pranav_bot_ros2_jazzy', 'TERM_PROGRAM_VERSION': '1.101.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-f44a607e-c118-48c8-8c66-b8c6a9d67767.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/fe25/pranav_bot_ros2_jazzy/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fe25', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fe25/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/fe25/.local/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-e01dc385ae.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/fe25/pranav_bot_ros2_jazzy/install/new_bot:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.38 53914 192.168.1.53 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/fe25/pranav_bot_ros2_jazzy/install/new_bot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.356852] (new_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.357533] (new_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.357869] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot//new_bot_hardware_interface.xml\n'}
+[10.358358] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/include/new_bot/rp2040_hardware_interface.hpp\n'}
+[10.358749] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/config/controllers.yaml\n'}
+[10.358889] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/config/robot_view.rviz\n'}
+[10.359213] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/inertial_macros.xacro\n'}
+[10.359367] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/lidar.xacro\n'}
+[10.359479] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/robot.urdf.xacro\n'}
+[10.359592] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/robot_core.xacro\n'}
+[10.359729] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/ros2_control.xacro\n'}
+[10.360009] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/launch/hardware.launch.py\n'}
+[10.360162] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/launch/robot_state_publisher.launch.py\n'}
+[10.360548] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/README_RP2040.md\n'}
+[10.360670] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/diagnose_rp2040.sh\n'}
+[10.360802] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/improved_test_rp2040.py\n'}
+[10.360929] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/rp2040_firmware.cpp\n'}
+[10.361052] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/rp2040_firmware/README.md\n'}
+[10.361212] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/rp2040_firmware/main.py\n'}
+[10.361349] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/rp2040_firmware/simple_test.py\n'}
+[10.361464] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/rp2040_simulator.py\n'}
+[10.361585] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/setup.sh\n'}
+[10.361713] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/setup_rp2040.sh\n'}
+[10.361835] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/test_rp2040.py\n'}
+[10.361957] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/test_simulator.py\n'}
+[10.362203] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/library_path.sh\n'}
+[10.362391] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/library_path.dsv\n'}
+[10.362600] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/ament_index/resource_index/package_run_dependencies/new_bot\n'}
+[10.362804] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/ament_index/resource_index/parent_prefix_path/new_bot\n'}
+[10.363000] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/ament_prefix_path.sh\n'}
+[10.363427] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/ament_prefix_path.dsv\n'}
+[10.363624] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/path.sh\n'}
+[10.363806] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/path.dsv\n'}
+[10.363985] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/local_setup.bash\n'}
+[10.364178] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/local_setup.sh\n'}
+[10.364359] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/local_setup.zsh\n'}
+[10.364539] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/local_setup.dsv\n'}
+[10.364676] (new_bot) StdoutLine: {'line': b'-- Symlinking: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/package.dsv\n'}
+[10.384856] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/ament_index/resource_index/packages/new_bot\n'}
+[10.385160] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/new_bot\n'}
+[10.385309] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.385500] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.385684] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_botConfig.cmake\n'}
+[10.385821] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_botConfig-version.cmake\n'}
+[10.386014] (new_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/package.xml\n'}
+[10.386368] (new_bot) StdoutLine: {'line': b'-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/lib/libnew_bot_hardware_interface.so\n'}
+[10.389874] (new_bot) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/fe25/pranav_bot_ros2_jazzy/install/new_bot/lib/libnew_bot_hardware_interface.so" to ""\n'}
+[10.390070] (new_bot) StdoutLine: {'line': b'-- Old export file "/home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_bot_hardware_interfaceExport.cmake" will be replaced.  Removing files [/home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_bot_hardware_interfaceExport-noconfig.cmake].\n'}
+[10.390197] (new_bot) StdoutLine: {'line': b'-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_bot_hardware_interfaceExport.cmake\n'}
+[10.390457] (new_bot) StdoutLine: {'line': b'-- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_bot_hardware_interfaceExport-noconfig.cmake\n'}
+[10.393672] (new_bot) CommandEnded: {'returncode': 0}
+[10.435712] (-) TimerEvent: {}
+[10.437909] (new_bot) JobEnded: {'identifier': 'new_bot', 'rc': 0}
+[10.439122] (-) EventReactorShutdown: {}

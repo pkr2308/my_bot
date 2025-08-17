@@ -1,0 +1,1 @@
+/home/fe25/pranav_bot_ros2_jazzy/build/new_bot/ament_cmake_core/new_botConfig-version.cmake

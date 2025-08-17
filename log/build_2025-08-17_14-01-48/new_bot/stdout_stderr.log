@@ -1,0 +1,74 @@
+[ 50%] Building CXX object CMakeFiles/new_bot_hardware_interface.dir/src/rp2040_hardware_interface.cpp.o
+In file included from /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:1:
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:27:57: warning: extra ‘;’ [-Wpedantic]
+   27 |   RCLCPP_SHARED_PTR_DEFINITIONS(RP2040HardwareInterface);
+      |                                                         ^
+      |                                                         -
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function ‘virtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::on_activate(const rclcpp_lifecycle::State&)’:
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:154:8: error: ‘send_command’ was not declared in this scope; did you mean ‘sendCommand’?
+  154 |   if (!send_command("INIT"))
+      |        ^~~~~~~~~~~~
+      |        sendCommand
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function ‘virtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)’:
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:170:3: error: ‘send_command’ was not declared in this scope; did you mean ‘sendCommand’?
+  170 |   send_command("STOP");
+      |   ^~~~~~~~~~~~
+      |   sendCommand
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:172:3: error: ‘disconnect_from_rp2040’ was not declared in this scope; did you mean ‘connect_to_rp2040’?
+  172 |   disconnect_from_rp2040();
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+      |   connect_to_rp2040
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function ‘virtual hardware_interface::return_type new_bot::RP2040HardwareInterface::read(const rclcpp::Time&, const rclcpp::Duration&)’:
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:182:8: error: ‘send_command’ was not declared in this scope; did you mean ‘sendCommand’?
+  182 |   if (!send_command("READ"))
+      |        ^~~~~~~~~~~~
+      |        sendCommand
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:189:26: error: ‘receive_response’ was not declared in this scope; did you mean ‘receiveResponse’?
+  189 |   std::string response = receive_response();
+      |                          ^~~~~~~~~~~~~~~~
+      |                          receiveResponse
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:190:8: error: ‘parse_sensor_data’ was not declared in this scope
+  190 |   if (!parse_sensor_data(response))
+      |        ^~~~~~~~~~~~~~~~~
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function ‘virtual hardware_interface::return_type new_bot::RP2040HardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)’:
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:236:8: error: ‘send_command’ was not declared in this scope; did you mean ‘sendCommand’?
+  236 |   if (!send_command(command))
+      |        ^~~~~~~~~~~~
+      |        sendCommand
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function ‘bool new_bot::RP2040HardwareInterface::connect_to_rp2040()’:
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:249:5: error: ‘serial_’ was not declared in this scope; did you mean ‘serial’?
+  249 |     serial_ = std::make_unique<serial::Serial>(serial_port_, baud_rate_, serial::Timeout::simpleTimeout(timeout_ms_));
+      |     ^~~~~~~
+      |     serial
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: At global scope:
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:273:6: error: no declaration matches ‘void new_bot::RP2040HardwareInterface::disconnect_from_rp2040()’
+  273 | void RP2040HardwareInterface::disconnect_from_rp2040()
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:273:6: note: no functions named ‘void new_bot::RP2040HardwareInterface::disconnect_from_rp2040()’
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7: note: ‘class new_bot::RP2040HardwareInterface’ defined here
+   24 | class RP2040HardwareInterface : public hardware_interface::SystemInterface
+      |       ^~~~~~~~~~~~~~~~~~~~~~~
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:281:6: error: no declaration matches ‘bool new_bot::RP2040HardwareInterface::send_command(const std::string&)’
+  281 | bool RP2040HardwareInterface::send_command(const std::string& command)
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:281:6: note: no functions named ‘bool new_bot::RP2040HardwareInterface::send_command(const std::string&)’
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7: note: ‘class new_bot::RP2040HardwareInterface’ defined here
+   24 | class RP2040HardwareInterface : public hardware_interface::SystemInterface
+      |       ^~~~~~~~~~~~~~~~~~~~~~~
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:303:13: error: no declaration matches ‘std::string new_bot::RP2040HardwareInterface::receive_response()’
+  303 | std::string RP2040HardwareInterface::receive_response()
+      |             ^~~~~~~~~~~~~~~~~~~~~~~
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:303:13: note: no functions named ‘std::string new_bot::RP2040HardwareInterface::receive_response()’
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7: note: ‘class new_bot::RP2040HardwareInterface’ defined here
+   24 | class RP2040HardwareInterface : public hardware_interface::SystemInterface
+      |       ^~~~~~~~~~~~~~~~~~~~~~~
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:326:6: error: no declaration matches ‘bool new_bot::RP2040HardwareInterface::parse_sensor_data(const std::string&)’
+  326 | bool RP2040HardwareInterface::parse_sensor_data(const std::string& data)
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:326:6: note: no functions named ‘bool new_bot::RP2040HardwareInterface::parse_sensor_data(const std::string&)’
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7: note: ‘class new_bot::RP2040HardwareInterface’ defined here
+   24 | class RP2040HardwareInterface : public hardware_interface::SystemInterface
+      |       ^~~~~~~~~~~~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/new_bot_hardware_interface.dir/build.make:76: CMakeFiles/new_bot_hardware_interface.dir/src/rp2040_hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/new_bot_hardware_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <ros2_control name="new_bot_hardware" type="system">
+        <hardware>
+            <!-- Custom RP2040 Hardware Interface -->
+            <plugin>new_bot/RP2040HardwareInterface</plugin>
+            <param name="serial_port">/dev/ttyACM0</param>
+            <param name="baud_rate">115200</param>
+            <param name="timeout_ms">1000</param>
+            <param name="retry_count">3</param>
+        </hardware>
+        
+        <!-- Steering Servo (Single Servo controlling both front wheels) -->
+        <joint name="steering_joint">
+            <command_interface name="position">
+                <param name="min">-0.785</param> <!-- -45 degrees in radians -->
+                <param name="max">0.785</param>  <!-- +45 degrees in radians -->
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <!-- Drive Motor (Back Wheels) -->
+        <joint name="back_left_wheel_joint">
+            <command_interface name="velocity">
+                <param name="min">-5.0</param> <!-- rad/s -->
+                <param name="max">5.0</param>  <!-- rad/s -->
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+        
+        <joint name="back_right_wheel_joint">
+            <command_interface name="velocity">
+                <param name="min">-5.0</param> <!-- rad/s -->
+                <param name="max">5.0</param>  <!-- rad/s -->
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+        
+        <!-- Front wheel joints for simulation/compatibility -->
+        <joint name="front_left_wheel_joint">
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+        
+        <joint name="front_right_wheel_joint">
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+
+        <!-- IMU Sensor -->
+        <sensor name="imu_sensor">
+            <state_interface name="orientation.x"/>
+            <state_interface name="orientation.y"/>
+            <state_interface name="orientation.z"/>
+            <state_interface name="orientation.w"/>
+            <state_interface name="angular_velocity.x"/>
+            <state_interface name="angular_velocity.y"/>
+            <state_interface name="angular_velocity.z"/>
+            <state_interface name="linear_acceleration.x"/>
+            <state_interface name="linear_acceleration.y"/>
+            <state_interface name="linear_acceleration.z"/>
+        </sensor>
+
+        <!-- TF Luna Range Sensors -->
+        <sensor name="tf_luna_front">
+            <state_interface name="range"/>
+        </sensor>
+        
+        <sensor name="tf_luna_left">
+            <state_interface name="range"/>
+        </sensor>
+        
+        <sensor name="tf_luna_right">
+            <state_interface name="range"/>
+        </sensor>
+
+    </ros2_control>
+
+</robot>

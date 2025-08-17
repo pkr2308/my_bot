@@ -1,0 +1,224 @@
+[0.000000] (-) TimerEvent: {}
+[0.000097] (new_bot) JobQueued: {'identifier': 'new_bot', 'dependencies': OrderedDict()}
+[0.000569] (new_bot) JobStarted: {'identifier': 'new_bot'}
+[0.010941] (new_bot) JobProgress: {'identifier': 'new_bot', 'progress': 'cmake'}
+[0.011925] (new_bot) JobProgress: {'identifier': 'new_bot', 'progress': 'build'}
+[0.012865] (new_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot', '--', '-j4', '-l4'], 'cwd': '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fe25', 'SSH_CLIENT': '192.168.1.38 54028 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/helpers/browser.sh', 'HOME': '/home/fe25', 'OLDPWD': '/home/fe25/pranav_bot_ros2_jazzy', 'TERM_PROGRAM_VERSION': '1.101.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-2128b243-b269-491e-8b01-39d8192d7396.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fe25', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/fe25/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fe25/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-e01dc385ae.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.38 54028 192.168.1.53 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099823] (-) TimerEvent: {}
+[0.137824] (new_bot) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/new_bot_hardware_interface.dir/src/rp2040_hardware_interface.cpp.o\n'}
+[0.199941] (-) TimerEvent: {}
+[0.300167] (-) TimerEvent: {}
+[0.400402] (-) TimerEvent: {}
+[0.500632] (-) TimerEvent: {}
+[0.600852] (-) TimerEvent: {}
+[0.701072] (-) TimerEvent: {}
+[0.801300] (-) TimerEvent: {}
+[0.901529] (-) TimerEvent: {}
+[1.001764] (-) TimerEvent: {}
+[1.102007] (-) TimerEvent: {}
+[1.202278] (-) TimerEvent: {}
+[1.302515] (-) TimerEvent: {}
+[1.402737] (-) TimerEvent: {}
+[1.502962] (-) TimerEvent: {}
+[1.603264] (-) TimerEvent: {}
+[1.703539] (-) TimerEvent: {}
+[1.803766] (-) TimerEvent: {}
+[1.904003] (-) TimerEvent: {}
+[2.004234] (-) TimerEvent: {}
+[2.104457] (-) TimerEvent: {}
+[2.204687] (-) TimerEvent: {}
+[2.304918] (-) TimerEvent: {}
+[2.405160] (-) TimerEvent: {}
+[2.505415] (-) TimerEvent: {}
+[2.605646] (-) TimerEvent: {}
+[2.705877] (-) TimerEvent: {}
+[2.806106] (-) TimerEvent: {}
+[2.906348] (-) TimerEvent: {}
+[3.006566] (-) TimerEvent: {}
+[3.106798] (-) TimerEvent: {}
+[3.207040] (-) TimerEvent: {}
+[3.307285] (-) TimerEvent: {}
+[3.407521] (-) TimerEvent: {}
+[3.507750] (-) TimerEvent: {}
+[3.607980] (-) TimerEvent: {}
+[3.708226] (-) TimerEvent: {}
+[3.808463] (-) TimerEvent: {}
+[3.908697] (-) TimerEvent: {}
+[4.008931] (-) TimerEvent: {}
+[4.109200] (-) TimerEvent: {}
+[4.176755] (new_bot) StderrLine: {'line': b'In file included from /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:1:\n'}
+[4.177126] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:27:57: warning: extra \xe2\x80\x98;\xe2\x80\x99 [-Wpedantic]\n'}
+[4.178128] (new_bot) StderrLine: {'line': b'   27 |   RCLCPP_SHARED_PTR_DEFINITIONS(RP2040HardwareInterface);\n'}
+[4.178358] (new_bot) StderrLine: {'line': b'      |                                                         ^\n'}
+[4.178514] (new_bot) StderrLine: {'line': b'      |                                                         -\n'}
+[4.208913] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function \xe2\x80\x98virtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::on_init(const hardware_interface::HardwareInfo&)\xe2\x80\x99:\n'}
+[4.209230] (-) TimerEvent: {}
+[4.209275] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:32:3: error: \xe2\x80\x98hw_joint_positions_\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98hw_positions_\xe2\x80\x99?\n'}
+[4.209443] (new_bot) StderrLine: {'line': b'   32 |   hw_joint_positions_.resize(info_.joints.size(), 0.0);\n'}
+[4.209585] (new_bot) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~\n'}
+[4.209717] (new_bot) StderrLine: {'line': b'      |   hw_positions_\n'}
+[4.226961] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:33:3: error: \xe2\x80\x98hw_joint_velocities_\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98hw_velocities_\xe2\x80\x99?\n'}
+[4.227301] (new_bot) StderrLine: {'line': b'   33 |   hw_joint_velocities_.resize(info_.joints.size(), 0.0);\n'}
+[4.227480] (new_bot) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~\n'}
+[4.227609] (new_bot) StderrLine: {'line': b'      |   hw_velocities_\n'}
+[4.254983] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:34:3: error: \xe2\x80\x98hw_joint_position_commands_\xe2\x80\x99 was not declared in this scope\n'}
+[4.255309] (new_bot) StderrLine: {'line': b'   34 |   hw_joint_position_commands_.resize(info_.joints.size(), 0.0);\n'}
+[4.255459] (new_bot) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.281806] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:35:3: error: \xe2\x80\x98hw_joint_velocity_commands_\xe2\x80\x99 was not declared in this scope\n'}
+[4.282113] (new_bot) StderrLine: {'line': b'   35 |   hw_joint_velocity_commands_.resize(info_.joints.size(), 0.0);\n'}
+[4.282295] (new_bot) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.295234] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:38:3: error: \xe2\x80\x98joint_names_\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98joint_states_\xe2\x80\x99?\n'}
+[4.295516] (new_bot) StderrLine: {'line': b'   38 |   joint_names_.clear();\n'}
+[4.295663] (new_bot) StderrLine: {'line': b'      |   ^~~~~~~~~~~~\n'}
+[4.295797] (new_bot) StderrLine: {'line': b'      |   joint_states_\n'}
+[4.309359] (-) TimerEvent: {}
+[4.316100] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:45:3: error: \xe2\x80\x98hw_imu_orientation_\xe2\x80\x99 was not declared in this scope\n'}
+[4.316402] (new_bot) StderrLine: {'line': b'   45 |   hw_imu_orientation_.resize(4, 0.0);      // quaternion x,y,z,w\n'}
+[4.316547] (new_bot) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~\n'}
+[4.340987] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:46:3: error: \xe2\x80\x98hw_imu_angular_velocity_\xe2\x80\x99 was not declared in this scope\n'}
+[4.341602] (new_bot) StderrLine: {'line': b'   46 |   hw_imu_angular_velocity_.resize(3, 0.0); // rad/s x,y,z\n'}
+[4.341796] (new_bot) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.362256] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:47:3: error: \xe2\x80\x98hw_imu_linear_accel_\xe2\x80\x99 was not declared in this scope\n'}
+[4.362623] (new_bot) StderrLine: {'line': b'   47 |   hw_imu_linear_accel_.resize(3, 0.0);     // m/s\xc2\xb2 x,y,z\n'}
+[4.362764] (new_bot) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~\n'}
+[4.380136] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:48:3: error: \xe2\x80\x98hw_range_sensors_\xe2\x80\x99 was not declared in this scope\n'}
+[4.380429] (new_bot) StderrLine: {'line': b'   48 |   hw_range_sensors_.resize(3, 0.0);        // front, left, right distances\n'}
+[4.380591] (new_bot) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~\n'}
+[4.400465] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function \xe2\x80\x98virtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::on_configure(const rclcpp_lifecycle::State&)\xe2\x80\x99:\n'}
+[4.401290] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:62:8: error: \xe2\x80\x98connect_to_rp2040\xe2\x80\x99 was not declared in this scope\n'}
+[4.401536] (new_bot) StderrLine: {'line': b'   62 |   if (!connect_to_rp2040())\n'}
+[4.401700] (new_bot) StderrLine: {'line': b'      |        ^~~~~~~~~~~~~~~~~\n'}
+[4.409482] (-) TimerEvent: {}
+[4.420286] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function \xe2\x80\x98virtual std::vector<hardware_interface::StateInterface> new_bot::RP2040HardwareInterface::export_state_interfaces()\xe2\x80\x99:\n'}
+[4.420587] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:82:66: error: \xe2\x80\x98hw_joint_positions_\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98hw_positions_\xe2\x80\x99?\n'}
+[4.420731] (new_bot) StderrLine: {'line': b'   82 |       info_.joints[i].name, hardware_interface::HW_IF_POSITION, &hw_joint_positions_[i]));\n'}
+[4.420891] (new_bot) StderrLine: {'line': b'      |                                                                  ^~~~~~~~~~~~~~~~~~~\n'}
+[4.421051] (new_bot) StderrLine: {'line': b'      |                                                                  hw_positions_\n'}
+[4.437598] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:84:66: error: \xe2\x80\x98hw_joint_velocities_\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98hw_velocities_\xe2\x80\x99?\n'}
+[4.437905] (new_bot) StderrLine: {'line': b'   84 |       info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &hw_joint_velocities_[i]));\n'}
+[4.438047] (new_bot) StderrLine: {'line': b'      |                                                                  ^~~~~~~~~~~~~~~~~~~~\n'}
+[4.438179] (new_bot) StderrLine: {'line': b'      |                                                                  hw_velocities_\n'}
+[4.457643] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:89:37: error: \xe2\x80\x98hw_imu_orientation_\xe2\x80\x99 was not declared in this scope\n'}
+[4.457948] (new_bot) StderrLine: {'line': b'   89 |     "imu_sensor", "orientation.x", &hw_imu_orientation_[0]));\n'}
+[4.458057] (new_bot) StderrLine: {'line': b'      |                                     ^~~~~~~~~~~~~~~~~~~\n'}
+[4.481805] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:98:42: error: \xe2\x80\x98hw_imu_angular_velocity_\xe2\x80\x99 was not declared in this scope\n'}
+[4.482109] (new_bot) StderrLine: {'line': b'   98 |     "imu_sensor", "angular_velocity.x", &hw_imu_angular_velocity_[0]));\n'}
+[4.482930] (new_bot) StderrLine: {'line': b'      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.502640] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:105:45: error: \xe2\x80\x98hw_imu_linear_accel_\xe2\x80\x99 was not declared in this scope\n'}
+[4.502926] (new_bot) StderrLine: {'line': b'  105 |     "imu_sensor", "linear_acceleration.x", &hw_imu_linear_accel_[0]));\n'}
+[4.503036] (new_bot) StderrLine: {'line': b'      |                                             ^~~~~~~~~~~~~~~~~~~~\n'}
+[4.509603] (-) TimerEvent: {}
+[4.521454] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:113:32: error: \xe2\x80\x98hw_range_sensors_\xe2\x80\x99 was not declared in this scope\n'}
+[4.521743] (new_bot) StderrLine: {'line': b'  113 |     "tf_luna_front", "range", &hw_range_sensors_[0]));\n'}
+[4.521856] (new_bot) StderrLine: {'line': b'      |                                ^~~~~~~~~~~~~~~~~\n'}
+[4.555273] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function \xe2\x80\x98virtual std::vector<hardware_interface::CommandInterface> new_bot::RP2040HardwareInterface::export_command_interfaces()\xe2\x80\x99:\n'}
+[4.555563] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:135:70: error: \xe2\x80\x98hw_joint_position_commands_\xe2\x80\x99 was not declared in this scope\n'}
+[4.555675] (new_bot) StderrLine: {'line': b'  135 |           info_.joints[i].name, hardware_interface::HW_IF_POSITION, &hw_joint_position_commands_[i]));\n'}
+[4.555780] (new_bot) StderrLine: {'line': b'      |                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.582777] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:140:70: error: \xe2\x80\x98hw_joint_velocity_commands_\xe2\x80\x99 was not declared in this scope\n'}
+[4.583058] (new_bot) StderrLine: {'line': b'  140 |           info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &hw_joint_velocity_commands_[i]));\n'}
+[4.583167] (new_bot) StderrLine: {'line': b'      |                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.595868] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function \xe2\x80\x98virtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::on_activate(const rclcpp_lifecycle::State&)\xe2\x80\x99:\n'}
+[4.596137] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:154:8: error: \xe2\x80\x98send_command\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98sendCommand\xe2\x80\x99?\n'}
+[4.596799] (new_bot) StderrLine: {'line': b'  154 |   if (!send_command("INIT"))\n'}
+[4.596941] (new_bot) StderrLine: {'line': b'      |        ^~~~~~~~~~~~\n'}
+[4.597037] (new_bot) StderrLine: {'line': b'      |        sendCommand\n'}
+[4.609722] (-) TimerEvent: {}
+[4.610569] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function \xe2\x80\x98virtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)\xe2\x80\x99:\n'}
+[4.610836] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:170:3: error: \xe2\x80\x98send_command\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98sendCommand\xe2\x80\x99?\n'}
+[4.610949] (new_bot) StderrLine: {'line': b'  170 |   send_command("STOP");\n'}
+[4.611037] (new_bot) StderrLine: {'line': b'      |   ^~~~~~~~~~~~\n'}
+[4.611124] (new_bot) StderrLine: {'line': b'      |   sendCommand\n'}
+[4.633598] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:172:3: error: \xe2\x80\x98disconnect_from_rp2040\xe2\x80\x99 was not declared in this scope\n'}
+[4.633942] (new_bot) StderrLine: {'line': b'  172 |   disconnect_from_rp2040();\n'}
+[4.634071] (new_bot) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.646061] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function \xe2\x80\x98virtual hardware_interface::return_type new_bot::RP2040HardwareInterface::read(const rclcpp::Time&, const rclcpp::Duration&)\xe2\x80\x99:\n'}
+[4.646387] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:182:8: error: \xe2\x80\x98send_command\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98sendCommand\xe2\x80\x99?\n'}
+[4.646508] (new_bot) StderrLine: {'line': b'  182 |   if (!send_command("READ"))\n'}
+[4.646609] (new_bot) StderrLine: {'line': b'      |        ^~~~~~~~~~~~\n'}
+[4.646704] (new_bot) StderrLine: {'line': b'      |        sendCommand\n'}
+[4.658912] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:189:26: error: \xe2\x80\x98receive_response\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98receiveResponse\xe2\x80\x99?\n'}
+[4.659219] (new_bot) StderrLine: {'line': b'  189 |   std::string response = receive_response();\n'}
+[4.659350] (new_bot) StderrLine: {'line': b'      |                          ^~~~~~~~~~~~~~~~\n'}
+[4.659440] (new_bot) StderrLine: {'line': b'      |                          receiveResponse\n'}
+[4.677577] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:190:8: error: \xe2\x80\x98parse_sensor_data\xe2\x80\x99 was not declared in this scope\n'}
+[4.677850] (new_bot) StderrLine: {'line': b'  190 |   if (!parse_sensor_data(response))\n'}
+[4.677954] (new_bot) StderrLine: {'line': b'      |        ^~~~~~~~~~~~~~~~~\n'}
+[4.705806] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function \xe2\x80\x98virtual hardware_interface::return_type new_bot::RP2040HardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)\xe2\x80\x99:\n'}
+[4.706109] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:227:40: error: \xe2\x80\x98hw_joint_position_commands_\xe2\x80\x99 was not declared in this scope\n'}
+[4.706240] (new_bot) StderrLine: {'line': b'  227 |       command += "P:" + std::to_string(hw_joint_position_commands_[i]);\n'}
+[4.706343] (new_bot) StderrLine: {'line': b'      |                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.709832] (-) TimerEvent: {}
+[4.732122] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:231:40: error: \xe2\x80\x98hw_joint_velocity_commands_\xe2\x80\x99 was not declared in this scope\n'}
+[4.732445] (new_bot) StderrLine: {'line': b'  231 |       command += "V:" + std::to_string(hw_joint_velocity_commands_[i]);\n'}
+[4.732564] (new_bot) StderrLine: {'line': b'      |                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.745362] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:236:8: error: \xe2\x80\x98send_command\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98sendCommand\xe2\x80\x99?\n'}
+[4.745746] (new_bot) StderrLine: {'line': b'  236 |   if (!send_command(command))\n'}
+[4.745913] (new_bot) StderrLine: {'line': b'      |        ^~~~~~~~~~~~\n'}
+[4.746051] (new_bot) StderrLine: {'line': b'      |        sendCommand\n'}
+[4.747336] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: At global scope:\n'}
+[4.748632] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:245:6: error: no declaration matches \xe2\x80\x98bool new_bot::RP2040HardwareInterface::connect_to_rp2040()\xe2\x80\x99\n'}
+[4.748897] (new_bot) StderrLine: {'line': b'  245 | bool RP2040HardwareInterface::connect_to_rp2040()\n'}
+[4.749052] (new_bot) StderrLine: {'line': b'      |      ^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.749201] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:245:6: note: no functions named \xe2\x80\x98bool new_bot::RP2040HardwareInterface::connect_to_rp2040()\xe2\x80\x99\n'}
+[4.749420] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7: note: \xe2\x80\x98class new_bot::RP2040HardwareInterface\xe2\x80\x99 defined here\n'}
+[4.749583] (new_bot) StderrLine: {'line': b'   24 | class RP2040HardwareInterface : public hardware_interface::SystemInterface\n'}
+[4.749761] (new_bot) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.749909] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:273:6: error: no declaration matches \xe2\x80\x98void new_bot::RP2040HardwareInterface::disconnect_from_rp2040()\xe2\x80\x99\n'}
+[4.750073] (new_bot) StderrLine: {'line': b'  273 | void RP2040HardwareInterface::disconnect_from_rp2040()\n'}
+[4.750268] (new_bot) StderrLine: {'line': b'      |      ^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.750472] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:273:6: note: no functions named \xe2\x80\x98void new_bot::RP2040HardwareInterface::disconnect_from_rp2040()\xe2\x80\x99\n'}
+[4.750658] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7: note: \xe2\x80\x98class new_bot::RP2040HardwareInterface\xe2\x80\x99 defined here\n'}
+[4.750834] (new_bot) StderrLine: {'line': b'   24 | class RP2040HardwareInterface : public hardware_interface::SystemInterface\n'}
+[4.751013] (new_bot) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.751162] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:281:6: error: no declaration matches \xe2\x80\x98bool new_bot::RP2040HardwareInterface::send_command(const std::string&)\xe2\x80\x99\n'}
+[4.755575] (new_bot) StderrLine: {'line': b'  281 | bool RP2040HardwareInterface::send_command(const std::string& command)\n'}
+[4.755772] (new_bot) StderrLine: {'line': b'      |      ^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.755912] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:281:6: note: no functions named \xe2\x80\x98bool new_bot::RP2040HardwareInterface::send_command(const std::string&)\xe2\x80\x99\n'}
+[4.756076] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7: note: \xe2\x80\x98class new_bot::RP2040HardwareInterface\xe2\x80\x99 defined here\n'}
+[4.756260] (new_bot) StderrLine: {'line': b'   24 | class RP2040HardwareInterface : public hardware_interface::SystemInterface\n'}
+[4.756427] (new_bot) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.756577] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:303:13: error: no declaration matches \xe2\x80\x98std::string new_bot::RP2040HardwareInterface::receive_response()\xe2\x80\x99\n'}
+[4.756739] (new_bot) StderrLine: {'line': b'  303 | std::string RP2040HardwareInterface::receive_response()\n'}
+[4.756898] (new_bot) StderrLine: {'line': b'      |             ^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.757072] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:303:13: note: no functions named \xe2\x80\x98std::string new_bot::RP2040HardwareInterface::receive_response()\xe2\x80\x99\n'}
+[4.757250] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7: note: \xe2\x80\x98class new_bot::RP2040HardwareInterface\xe2\x80\x99 defined here\n'}
+[4.757469] (new_bot) StderrLine: {'line': b'   24 | class RP2040HardwareInterface : public hardware_interface::SystemInterface\n'}
+[4.757629] (new_bot) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.757779] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:326:6: error: no declaration matches \xe2\x80\x98bool new_bot::RP2040HardwareInterface::parse_sensor_data(const std::string&)\xe2\x80\x99\n'}
+[4.757952] (new_bot) StderrLine: {'line': b'  326 | bool RP2040HardwareInterface::parse_sensor_data(const std::string& data)\n'}
+[4.758085] (new_bot) StderrLine: {'line': b'      |      ^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.761355] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:326:6: note: no functions named \xe2\x80\x98bool new_bot::RP2040HardwareInterface::parse_sensor_data(const std::string&)\xe2\x80\x99\n'}
+[4.761731] (new_bot) StderrLine: {'line': b'/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7: note: \xe2\x80\x98class new_bot::RP2040HardwareInterface\xe2\x80\x99 defined here\n'}
+[4.761897] (new_bot) StderrLine: {'line': b'   24 | class RP2040HardwareInterface : public hardware_interface::SystemInterface\n'}
+[4.762059] (new_bot) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.809991] (-) TimerEvent: {}
+[4.910277] (-) TimerEvent: {}
+[5.010536] (-) TimerEvent: {}
+[5.110788] (-) TimerEvent: {}
+[5.211047] (-) TimerEvent: {}
+[5.311295] (-) TimerEvent: {}
+[5.411562] (-) TimerEvent: {}
+[5.511818] (-) TimerEvent: {}
+[5.612065] (-) TimerEvent: {}
+[5.712298] (-) TimerEvent: {}
+[5.812532] (-) TimerEvent: {}
+[5.912788] (-) TimerEvent: {}
+[6.013059] (-) TimerEvent: {}
+[6.113284] (-) TimerEvent: {}
+[6.213508] (-) TimerEvent: {}
+[6.313734] (-) TimerEvent: {}
+[6.413964] (-) TimerEvent: {}
+[6.514195] (-) TimerEvent: {}
+[6.614469] (-) TimerEvent: {}
+[6.714753] (-) TimerEvent: {}
+[6.814983] (-) TimerEvent: {}
+[6.915218] (-) TimerEvent: {}
+[7.015440] (-) TimerEvent: {}
+[7.115673] (-) TimerEvent: {}
+[7.123370] (new_bot) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/new_bot_hardware_interface.dir/build.make:76: CMakeFiles/new_bot_hardware_interface.dir/src/rp2040_hardware_interface.cpp.o] Error 1\n'}
+[7.123822] (new_bot) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/new_bot_hardware_interface.dir/all] Error 2\n'}
+[7.124026] (new_bot) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.127093] (new_bot) CommandEnded: {'returncode': 2}
+[7.141576] (new_bot) JobEnded: {'identifier': 'new_bot', 'rc': 2}
+[7.152343] (-) EventReactorShutdown: {}

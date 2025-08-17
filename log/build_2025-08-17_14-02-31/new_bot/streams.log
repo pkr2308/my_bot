@@ -1,0 +1,56 @@
+[0.013s] Invoking command in '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fe25/pranav_bot_ros2_jazzy/build/new_bot -- -j4 -l4
+[0.142s] [ 50%] Building CXX object CMakeFiles/new_bot_hardware_interface.dir/src/rp2040_hardware_interface.cpp.o
+[4.051s] In file included from /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:1:
+[4.051s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:27:57: warning: extra ‘;’ [-Wpedantic]
+[4.051s]    27 |   RCLCPP_SHARED_PTR_DEFINITIONS(RP2040HardwareInterface);
+[4.052s]       |                                                         ^
+[4.052s]       |                                                         -
+[8.092s] [100%] Linking CXX shared library libnew_bot_hardware_interface.so
+[9.021s] [100%] Built target new_bot_hardware_interface
+[9.043s] Invoked command in '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fe25/pranav_bot_ros2_jazzy/build/new_bot -- -j4 -l4
+[9.064s] Invoking command in '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fe25/pranav_bot_ros2_jazzy/build/new_bot
+[9.081s] -- Install configuration: ""
+[9.081s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/new_bot_hardware_interface.xml
+[9.082s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/lib/libnew_bot_hardware_interface.so
+[9.085s] -- Set non-toolchain portion of runtime path of "/home/fe25/pranav_bot_ros2_jazzy/install/new_bot/lib/libnew_bot_hardware_interface.so" to ""
+[9.085s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/include
+[9.085s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/include/new_bot
+[9.085s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/include/new_bot/rp2040_hardware_interface.hpp
+[9.086s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/config
+[9.086s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/config/controllers.yaml
+[9.086s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/config/robot_view.rviz
+[9.086s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description
+[9.087s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/robot_core.xacro
+[9.087s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/inertial_macros.xacro
+[9.087s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/robot.urdf.xacro
+[9.087s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/ros2_control.xacro
+[9.088s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/description/lidar.xacro
+[9.088s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/launch
+[9.089s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/launch/robot_state_publisher.launch.py
+[9.089s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/launch/hardware.launch.py
+[9.090s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts
+[9.090s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/setup.sh
+[9.090s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/scripts/test_rp2040.py
+[9.090s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/library_path.sh
+[9.090s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/library_path.dsv
+[9.091s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/ament_index/resource_index/package_run_dependencies/new_bot
+[9.091s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/ament_index/resource_index/parent_prefix_path/new_bot
+[9.091s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/ament_prefix_path.sh
+[9.091s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/ament_prefix_path.dsv
+[9.091s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/path.sh
+[9.091s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/environment/path.dsv
+[9.092s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/local_setup.bash
+[9.092s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/local_setup.sh
+[9.092s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/local_setup.zsh
+[9.092s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/local_setup.dsv
+[9.092s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/package.dsv
+[9.092s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/ament_index/resource_index/packages/new_bot
+[9.092s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/new_bot
+[9.093s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_bot_hardware_interfaceExport.cmake
+[9.093s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_bot_hardware_interfaceExport-noconfig.cmake
+[9.093s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/ament_cmake_export_targets-extras.cmake
+[9.093s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.094s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_botConfig.cmake
+[9.095s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/cmake/new_botConfig-version.cmake
+[9.095s] -- Installing: /home/fe25/pranav_bot_ros2_jazzy/install/new_bot/share/new_bot/package.xml
+[9.096s] Invoked command in '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fe25/pranav_bot_ros2_jazzy/build/new_bot

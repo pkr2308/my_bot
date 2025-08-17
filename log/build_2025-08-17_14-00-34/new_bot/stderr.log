@@ -1,0 +1,143 @@
+In file included from [01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:1[m[K:
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:27:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   27 |   RCLCPP_SHARED_PTR_DEFINITIONS(RP2040HardwareInterface)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:32:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_joint_positions_[m[K’ was not declared in this scope; did you mean ‘[01m[Khw_positions_[m[K’?
+   32 |   [01;31m[Khw_joint_positions_[m[K.resize(info_.joints.size(), 0.0);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Khw_positions_[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:33:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_joint_velocities_[m[K’ was not declared in this scope; did you mean ‘[01m[Khw_velocities_[m[K’?
+   33 |   [01;31m[Khw_joint_velocities_[m[K.resize(info_.joints.size(), 0.0);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Khw_velocities_[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:34:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_joint_position_commands_[m[K’ was not declared in this scope
+   34 |   [01;31m[Khw_joint_position_commands_[m[K.resize(info_.joints.size(), 0.0);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:35:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_joint_velocity_commands_[m[K’ was not declared in this scope
+   35 |   [01;31m[Khw_joint_velocity_commands_[m[K.resize(info_.joints.size(), 0.0);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:38:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names_[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_states_[m[K’?
+   38 |   [01;31m[Kjoint_names_[m[K.clear();
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+      |   [32m[Kjoint_states_[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:45:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_imu_orientation_[m[K’ was not declared in this scope
+   45 |   [01;31m[Khw_imu_orientation_[m[K.resize(4, 0.0);      // quaternion x,y,z,w
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:46:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_imu_angular_velocity_[m[K’ was not declared in this scope
+   46 |   [01;31m[Khw_imu_angular_velocity_[m[K.resize(3, 0.0); // rad/s x,y,z
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:47:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_imu_linear_accel_[m[K’ was not declared in this scope
+   47 |   [01;31m[Khw_imu_linear_accel_[m[K.resize(3, 0.0);     // m/s² x,y,z
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:48:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_range_sensors_[m[K’ was not declared in this scope
+   48 |   [01;31m[Khw_range_sensors_[m[K.resize(3, 0.0);        // front, left, right distances
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::[01;32m[Kon_configure[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:62:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kconnect_to_rp2040[m[K’ was not declared in this scope
+   62 |   if (![01;31m[Kconnect_to_rp2040[m[K())
+      |        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> new_bot::RP2040HardwareInterface::[01;32m[Kexport_state_interfaces[m[K()[m[K’:
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:82:66:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_joint_positions_[m[K’ was not declared in this scope; did you mean ‘[01m[Khw_positions_[m[K’?
+   82 |       info_.joints[i].name, hardware_interface::HW_IF_POSITION, &[01;31m[Khw_joint_positions_[m[K[i]));
+      |                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                  [32m[Khw_positions_[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:84:66:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_joint_velocities_[m[K’ was not declared in this scope; did you mean ‘[01m[Khw_velocities_[m[K’?
+   84 |       info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &[01;31m[Khw_joint_velocities_[m[K[i]));
+      |                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                  [32m[Khw_velocities_[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:89:37:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_imu_orientation_[m[K’ was not declared in this scope
+   89 |     "imu_sensor", "orientation.x", &[01;31m[Khw_imu_orientation_[m[K[0]));
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:98:42:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_imu_angular_velocity_[m[K’ was not declared in this scope
+   98 |     "imu_sensor", "angular_velocity.x", &[01;31m[Khw_imu_angular_velocity_[m[K[0]));
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:105:45:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_imu_linear_accel_[m[K’ was not declared in this scope
+  105 |     "imu_sensor", "linear_acceleration.x", &[01;31m[Khw_imu_linear_accel_[m[K[0]));
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:113:32:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_range_sensors_[m[K’ was not declared in this scope
+  113 |     "tf_luna_front", "range", &[01;31m[Khw_range_sensors_[m[K[0]));
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> new_bot::RP2040HardwareInterface::[01;32m[Kexport_command_interfaces[m[K()[m[K’:
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:135:70:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_joint_position_commands_[m[K’ was not declared in this scope
+  135 |           info_.joints[i].name, hardware_interface::HW_IF_POSITION, &[01;31m[Khw_joint_position_commands_[m[K[i]));
+      |                                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:140:70:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_joint_velocity_commands_[m[K’ was not declared in this scope
+  140 |           info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &[01;31m[Khw_joint_velocity_commands_[m[K[i]));
+      |                                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::[01;32m[Kon_activate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:154:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_command[m[K’ was not declared in this scope; did you mean ‘[01m[KsendCommand[m[K’?
+  154 |   if (![01;31m[Ksend_command[m[K("INIT"))
+      |        [01;31m[K^~~~~~~~~~~~[m[K
+      |        [32m[KsendCommand[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::[01;32m[Kon_deactivate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:170:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_command[m[K’ was not declared in this scope; did you mean ‘[01m[KsendCommand[m[K’?
+  170 |   [01;31m[Ksend_command[m[K("STOP");
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+      |   [32m[KsendCommand[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:172:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdisconnect_from_rp2040[m[K’ was not declared in this scope
+  172 |   [01;31m[Kdisconnect_from_rp2040[m[K();
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type new_bot::RP2040HardwareInterface::[01;32m[Kread[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:182:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_command[m[K’ was not declared in this scope; did you mean ‘[01m[KsendCommand[m[K’?
+  182 |   if (![01;31m[Ksend_command[m[K("READ"))
+      |        [01;31m[K^~~~~~~~~~~~[m[K
+      |        [32m[KsendCommand[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:189:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceive_response[m[K’ was not declared in this scope; did you mean ‘[01m[KreceiveResponse[m[K’?
+  189 |   std::string response = [01;31m[Kreceive_response[m[K();
+      |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                          [32m[KreceiveResponse[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:190:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kparse_sensor_data[m[K’ was not declared in this scope
+  190 |   if (![01;31m[Kparse_sensor_data[m[K(response))
+      |        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type new_bot::RP2040HardwareInterface::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:227:40:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_joint_position_commands_[m[K’ was not declared in this scope
+  227 |       command += "P:" + std::to_string([01;31m[Khw_joint_position_commands_[m[K[i]);
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:231:40:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_joint_velocity_commands_[m[K’ was not declared in this scope
+  231 |       command += "V:" + std::to_string([01;31m[Khw_joint_velocity_commands_[m[K[i]);
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:236:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_command[m[K’ was not declared in this scope; did you mean ‘[01m[KsendCommand[m[K’?
+  236 |   if (![01;31m[Ksend_command[m[K(command))
+      |        [01;31m[K^~~~~~~~~~~~[m[K
+      |        [32m[KsendCommand[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:[m[K At global scope:
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:245:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool new_bot::RP2040HardwareInterface::[01;32m[Kconnect_to_rp2040[m[K()[m[K’
+  245 | bool [01;31m[KRP2040HardwareInterface[m[K::connect_to_rp2040()
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:245:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool new_bot::RP2040HardwareInterface::[01;32m[Kconnect_to_rp2040[m[K()[m[K’
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass new_bot::RP2040HardwareInterface[m[K’ defined here
+   24 | class [01;36m[KRP2040HardwareInterface[m[K : public hardware_interface::SystemInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:273:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid new_bot::RP2040HardwareInterface::[01;32m[Kdisconnect_from_rp2040[m[K()[m[K’
+  273 | void [01;31m[KRP2040HardwareInterface[m[K::disconnect_from_rp2040()
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:273:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid new_bot::RP2040HardwareInterface::[01;32m[Kdisconnect_from_rp2040[m[K()[m[K’
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass new_bot::RP2040HardwareInterface[m[K’ defined here
+   24 | class [01;36m[KRP2040HardwareInterface[m[K : public hardware_interface::SystemInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:281:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool new_bot::RP2040HardwareInterface::[01;32m[Ksend_command[m[K(const std::string&)[m[K’
+  281 | bool [01;31m[KRP2040HardwareInterface[m[K::send_command(const std::string& command)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:281:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool new_bot::RP2040HardwareInterface::[01;32m[Ksend_command[m[K(const std::string&)[m[K’
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass new_bot::RP2040HardwareInterface[m[K’ defined here
+   24 | class [01;36m[KRP2040HardwareInterface[m[K : public hardware_interface::SystemInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:303:13:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::string new_bot::RP2040HardwareInterface::[01;32m[Kreceive_response[m[K()[m[K’
+  303 | std::string [01;31m[KRP2040HardwareInterface[m[K::receive_response()
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:303:13:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::string new_bot::RP2040HardwareInterface::[01;32m[Kreceive_response[m[K()[m[K’
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass new_bot::RP2040HardwareInterface[m[K’ defined here
+   24 | class [01;36m[KRP2040HardwareInterface[m[K : public hardware_interface::SystemInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:326:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool new_bot::RP2040HardwareInterface::[01;32m[Kparse_sensor_data[m[K(const std::string&)[m[K’
+  326 | bool [01;31m[KRP2040HardwareInterface[m[K::parse_sensor_data(const std::string& data)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:326:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool new_bot::RP2040HardwareInterface::[01;32m[Kparse_sensor_data[m[K(const std::string&)[m[K’
+[01m[K/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass new_bot::RP2040HardwareInterface[m[K’ defined here
+   24 | class [01;36m[KRP2040HardwareInterface[m[K : public hardware_interface::SystemInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/new_bot_hardware_interface.dir/build.make:76: CMakeFiles/new_bot_hardware_interface.dir/src/rp2040_hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/new_bot_hardware_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,146 @@
+[0.013s] Invoking command in '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fe25/pranav_bot_ros2_jazzy/build/new_bot -- -j4 -l4
+[0.137s] [ 50%] Building CXX object CMakeFiles/new_bot_hardware_interface.dir/src/rp2040_hardware_interface.cpp.o
+[4.176s] In file included from /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:1:
+[4.177s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:27:57: warning: extra ‘;’ [-Wpedantic]
+[4.178s]    27 |   RCLCPP_SHARED_PTR_DEFINITIONS(RP2040HardwareInterface);
+[4.178s]       |                                                         ^
+[4.178s]       |                                                         -
+[4.208s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function ‘virtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::on_init(const hardware_interface::HardwareInfo&)’:
+[4.209s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:32:3: error: ‘hw_joint_positions_’ was not declared in this scope; did you mean ‘hw_positions_’?
+[4.209s]    32 |   hw_joint_positions_.resize(info_.joints.size(), 0.0);
+[4.209s]       |   ^~~~~~~~~~~~~~~~~~~
+[4.209s]       |   hw_positions_
+[4.226s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:33:3: error: ‘hw_joint_velocities_’ was not declared in this scope; did you mean ‘hw_velocities_’?
+[4.227s]    33 |   hw_joint_velocities_.resize(info_.joints.size(), 0.0);
+[4.227s]       |   ^~~~~~~~~~~~~~~~~~~~
+[4.227s]       |   hw_velocities_
+[4.255s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:34:3: error: ‘hw_joint_position_commands_’ was not declared in this scope
+[4.255s]    34 |   hw_joint_position_commands_.resize(info_.joints.size(), 0.0);
+[4.255s]       |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.281s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:35:3: error: ‘hw_joint_velocity_commands_’ was not declared in this scope
+[4.282s]    35 |   hw_joint_velocity_commands_.resize(info_.joints.size(), 0.0);
+[4.282s]       |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.295s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:38:3: error: ‘joint_names_’ was not declared in this scope; did you mean ‘joint_states_’?
+[4.295s]    38 |   joint_names_.clear();
+[4.295s]       |   ^~~~~~~~~~~~
+[4.295s]       |   joint_states_
+[4.316s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:45:3: error: ‘hw_imu_orientation_’ was not declared in this scope
+[4.316s]    45 |   hw_imu_orientation_.resize(4, 0.0);      // quaternion x,y,z,w
+[4.316s]       |   ^~~~~~~~~~~~~~~~~~~
+[4.341s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:46:3: error: ‘hw_imu_angular_velocity_’ was not declared in this scope
+[4.341s]    46 |   hw_imu_angular_velocity_.resize(3, 0.0); // rad/s x,y,z
+[4.341s]       |   ^~~~~~~~~~~~~~~~~~~~~~~~
+[4.362s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:47:3: error: ‘hw_imu_linear_accel_’ was not declared in this scope
+[4.362s]    47 |   hw_imu_linear_accel_.resize(3, 0.0);     // m/s² x,y,z
+[4.362s]       |   ^~~~~~~~~~~~~~~~~~~~
+[4.380s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:48:3: error: ‘hw_range_sensors_’ was not declared in this scope
+[4.380s]    48 |   hw_range_sensors_.resize(3, 0.0);        // front, left, right distances
+[4.380s]       |   ^~~~~~~~~~~~~~~~~
+[4.400s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function ‘virtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::on_configure(const rclcpp_lifecycle::State&)’:
+[4.401s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:62:8: error: ‘connect_to_rp2040’ was not declared in this scope
+[4.401s]    62 |   if (!connect_to_rp2040())
+[4.401s]       |        ^~~~~~~~~~~~~~~~~
+[4.420s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function ‘virtual std::vector<hardware_interface::StateInterface> new_bot::RP2040HardwareInterface::export_state_interfaces()’:
+[4.420s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:82:66: error: ‘hw_joint_positions_’ was not declared in this scope; did you mean ‘hw_positions_’?
+[4.420s]    82 |       info_.joints[i].name, hardware_interface::HW_IF_POSITION, &hw_joint_positions_[i]));
+[4.420s]       |                                                                  ^~~~~~~~~~~~~~~~~~~
+[4.420s]       |                                                                  hw_positions_
+[4.437s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:84:66: error: ‘hw_joint_velocities_’ was not declared in this scope; did you mean ‘hw_velocities_’?
+[4.437s]    84 |       info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &hw_joint_velocities_[i]));
+[4.437s]       |                                                                  ^~~~~~~~~~~~~~~~~~~~
+[4.439s]       |                                                                  hw_velocities_
+[4.457s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:89:37: error: ‘hw_imu_orientation_’ was not declared in this scope
+[4.457s]    89 |     "imu_sensor", "orientation.x", &hw_imu_orientation_[0]));
+[4.457s]       |                                     ^~~~~~~~~~~~~~~~~~~
+[4.481s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:98:42: error: ‘hw_imu_angular_velocity_’ was not declared in this scope
+[4.482s]    98 |     "imu_sensor", "angular_velocity.x", &hw_imu_angular_velocity_[0]));
+[4.482s]       |                                          ^~~~~~~~~~~~~~~~~~~~~~~~
+[4.502s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:105:45: error: ‘hw_imu_linear_accel_’ was not declared in this scope
+[4.502s]   105 |     "imu_sensor", "linear_acceleration.x", &hw_imu_linear_accel_[0]));
+[4.502s]       |                                             ^~~~~~~~~~~~~~~~~~~~
+[4.521s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:113:32: error: ‘hw_range_sensors_’ was not declared in this scope
+[4.521s]   113 |     "tf_luna_front", "range", &hw_range_sensors_[0]));
+[4.521s]       |                                ^~~~~~~~~~~~~~~~~
+[4.555s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function ‘virtual std::vector<hardware_interface::CommandInterface> new_bot::RP2040HardwareInterface::export_command_interfaces()’:
+[4.555s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:135:70: error: ‘hw_joint_position_commands_’ was not declared in this scope
+[4.555s]   135 |           info_.joints[i].name, hardware_interface::HW_IF_POSITION, &hw_joint_position_commands_[i]));
+[4.555s]       |                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.582s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:140:70: error: ‘hw_joint_velocity_commands_’ was not declared in this scope
+[4.582s]   140 |           info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &hw_joint_velocity_commands_[i]));
+[4.583s]       |                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.595s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function ‘virtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::on_activate(const rclcpp_lifecycle::State&)’:
+[4.596s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:154:8: error: ‘send_command’ was not declared in this scope; did you mean ‘sendCommand’?
+[4.596s]   154 |   if (!send_command("INIT"))
+[4.596s]       |        ^~~~~~~~~~~~
+[4.596s]       |        sendCommand
+[4.610s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function ‘virtual hardware_interface::CallbackReturn new_bot::RP2040HardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)’:
+[4.610s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:170:3: error: ‘send_command’ was not declared in this scope; did you mean ‘sendCommand’?
+[4.610s]   170 |   send_command("STOP");
+[4.610s]       |   ^~~~~~~~~~~~
+[4.610s]       |   sendCommand
+[4.633s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:172:3: error: ‘disconnect_from_rp2040’ was not declared in this scope
+[4.633s]   172 |   disconnect_from_rp2040();
+[4.633s]       |   ^~~~~~~~~~~~~~~~~~~~~~
+[4.646s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function ‘virtual hardware_interface::return_type new_bot::RP2040HardwareInterface::read(const rclcpp::Time&, const rclcpp::Duration&)’:
+[4.646s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:182:8: error: ‘send_command’ was not declared in this scope; did you mean ‘sendCommand’?
+[4.646s]   182 |   if (!send_command("READ"))
+[4.646s]       |        ^~~~~~~~~~~~
+[4.646s]       |        sendCommand
+[4.658s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:189:26: error: ‘receive_response’ was not declared in this scope; did you mean ‘receiveResponse’?
+[4.659s]   189 |   std::string response = receive_response();
+[4.659s]       |                          ^~~~~~~~~~~~~~~~
+[4.659s]       |                          receiveResponse
+[4.677s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:190:8: error: ‘parse_sensor_data’ was not declared in this scope
+[4.677s]   190 |   if (!parse_sensor_data(response))
+[4.677s]       |        ^~~~~~~~~~~~~~~~~
+[4.705s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: In member function ‘virtual hardware_interface::return_type new_bot::RP2040HardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)’:
+[4.705s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:227:40: error: ‘hw_joint_position_commands_’ was not declared in this scope
+[4.706s]   227 |       command += "P:" + std::to_string(hw_joint_position_commands_[i]);
+[4.706s]       |                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.732s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:231:40: error: ‘hw_joint_velocity_commands_’ was not declared in this scope
+[4.732s]   231 |       command += "V:" + std::to_string(hw_joint_velocity_commands_[i]);
+[4.732s]       |                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.745s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:236:8: error: ‘send_command’ was not declared in this scope; did you mean ‘sendCommand’?
+[4.745s]   236 |   if (!send_command(command))
+[4.745s]       |        ^~~~~~~~~~~~
+[4.745s]       |        sendCommand
+[4.748s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp: At global scope:
+[4.748s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:245:6: error: no declaration matches ‘bool new_bot::RP2040HardwareInterface::connect_to_rp2040()’
+[4.748s]   245 | bool RP2040HardwareInterface::connect_to_rp2040()
+[4.748s]       |      ^~~~~~~~~~~~~~~~~~~~~~~
+[4.749s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:245:6: note: no functions named ‘bool new_bot::RP2040HardwareInterface::connect_to_rp2040()’
+[4.749s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7: note: ‘class new_bot::RP2040HardwareInterface’ defined here
+[4.749s]    24 | class RP2040HardwareInterface : public hardware_interface::SystemInterface
+[4.749s]       |       ^~~~~~~~~~~~~~~~~~~~~~~
+[4.749s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:273:6: error: no declaration matches ‘void new_bot::RP2040HardwareInterface::disconnect_from_rp2040()’
+[4.749s]   273 | void RP2040HardwareInterface::disconnect_from_rp2040()
+[4.750s]       |      ^~~~~~~~~~~~~~~~~~~~~~~
+[4.750s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:273:6: note: no functions named ‘void new_bot::RP2040HardwareInterface::disconnect_from_rp2040()’
+[4.750s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7: note: ‘class new_bot::RP2040HardwareInterface’ defined here
+[4.750s]    24 | class RP2040HardwareInterface : public hardware_interface::SystemInterface
+[4.750s]       |       ^~~~~~~~~~~~~~~~~~~~~~~
+[4.755s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:281:6: error: no declaration matches ‘bool new_bot::RP2040HardwareInterface::send_command(const std::string&)’
+[4.755s]   281 | bool RP2040HardwareInterface::send_command(const std::string& command)
+[4.755s]       |      ^~~~~~~~~~~~~~~~~~~~~~~
+[4.755s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:281:6: note: no functions named ‘bool new_bot::RP2040HardwareInterface::send_command(const std::string&)’
+[4.755s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7: note: ‘class new_bot::RP2040HardwareInterface’ defined here
+[4.756s]    24 | class RP2040HardwareInterface : public hardware_interface::SystemInterface
+[4.756s]       |       ^~~~~~~~~~~~~~~~~~~~~~~
+[4.756s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:303:13: error: no declaration matches ‘std::string new_bot::RP2040HardwareInterface::receive_response()’
+[4.756s]   303 | std::string RP2040HardwareInterface::receive_response()
+[4.756s]       |             ^~~~~~~~~~~~~~~~~~~~~~~
+[4.756s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:303:13: note: no functions named ‘std::string new_bot::RP2040HardwareInterface::receive_response()’
+[4.757s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7: note: ‘class new_bot::RP2040HardwareInterface’ defined here
+[4.757s]    24 | class RP2040HardwareInterface : public hardware_interface::SystemInterface
+[4.757s]       |       ^~~~~~~~~~~~~~~~~~~~~~~
+[4.757s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:326:6: error: no declaration matches ‘bool new_bot::RP2040HardwareInterface::parse_sensor_data(const std::string&)’
+[4.757s]   326 | bool RP2040HardwareInterface::parse_sensor_data(const std::string& data)
+[4.757s]       |      ^~~~~~~~~~~~~~~~~~~~~~~
+[4.761s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:326:6: note: no functions named ‘bool new_bot::RP2040HardwareInterface::parse_sensor_data(const std::string&)’
+[4.761s] /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:24:7: note: ‘class new_bot::RP2040HardwareInterface’ defined here
+[4.761s]    24 | class RP2040HardwareInterface : public hardware_interface::SystemInterface
+[4.761s]       |       ^~~~~~~~~~~~~~~~~~~~~~~
+[7.123s] gmake[2]: *** [CMakeFiles/new_bot_hardware_interface.dir/build.make:76: CMakeFiles/new_bot_hardware_interface.dir/src/rp2040_hardware_interface.cpp.o] Error 1
+[7.123s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/new_bot_hardware_interface.dir/all] Error 2
+[7.123s] gmake: *** [Makefile:146: all] Error 2
+[7.127s] Invoked command in '/home/fe25/pranav_bot_ros2_jazzy/build/new_bot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fe25/pranav_bot_ros2_jazzy/build/new_bot -- -j4 -l4

@@ -1,0 +1,5 @@
+In file included from /home/fe25/pranav_bot_ros2_jazzy/src/new_bot/src/rp2040_hardware_interface.cpp:1:
+/home/fe25/pranav_bot_ros2_jazzy/src/new_bot/include/new_bot/rp2040_hardware_interface.hpp:27:57: warning: extra ‘;’ [-Wpedantic]
+   27 |   RCLCPP_SHARED_PTR_DEFINITIONS(RP2040HardwareInterface);
+      |                                                         ^
+      |                                                         -
