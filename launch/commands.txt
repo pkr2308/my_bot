@@ -44,7 +44,8 @@ may directly be used.
 8. If it gets stuck, in another terminal sessions: killall rplidar_composition
 
 The Serial Address of the RP2040 by ID is- 
-usb-Raspberry_Pi_Pico_E6617C93E311432C-if00
+usb-Raspberry_Pi_Pico_E6617C93E311432C-if00 (Adbhut)
+usb-Raspberry_Pi_Pico_E6625887D3859130-if00 (Pranav)
 
 Getting Dynamixel Hardware setup
 $ source /opt/ros/rolling/setup.bash
